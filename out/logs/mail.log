@@ -1,0 +1,186 @@
+2025-10-02 16:18:38,925 [INFO] ==== RUNTIME ====
+2025-10-02 16:18:38,926 [INFO] Python: 3.10.6 (64bit)
+2025-10-02 16:18:38,971 [INFO] OS: Windows-10-10.0.26100-SP0
+2025-10-02 16:18:38,972 [INFO] Pywin32: ?
+2025-10-02 16:18:38,972 [INFO] Working dir: C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator
+2025-10-02 16:18:38,972 [INFO] Script dir: C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator
+2025-10-02 16:18:38,972 [INFO] Docx out: C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\out\docx | Pdf out: C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\out\pdf | Log: C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\out\logs\mail.log
+2025-10-02 16:18:39,432 [ERROR] Echec debug_list_outlook_accounts()
+2025-10-02 16:18:39,433 [ERROR] Traceback (most recent call last):
+  File "C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\generate_and_pdf.py", line 194, in debug_list_outlook_accounts
+    session = outlook.Session
+  File "C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\.venv\lib\site-packages\win32com\client\__init__.py", line 589, in __getattr__
+    return self._ApplyTypes_(*args)
+  File "C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\.venv\lib\site-packages\win32com\client\__init__.py", line 580, in _ApplyTypes_
+    self._oleobj_.InvokeTypes(dispid, 0, wFlags, retType, argTypes, *args),
+pywintypes.com_error: (-2147418111, 'Call was rejected by callee.', None, None)
+
+2025-10-02 16:18:39,447 [INFO] [MAIL] Préparation -> to=gabrielnadoncanada@gmail.com | from=gabriel@dilamco.com | subj=Document - GABY INC.
+2025-10-02 16:18:39,535 [DEBUG] [MAIL] CreateItem OK (attempt 1)
+2025-10-02 16:18:39,692 [INFO] [MAIL] SendUsingAccount = gabriel@dilamco.com
+2025-10-02 16:18:39,722 [DEBUG] [MAIL] Signature système ajoutée
+2025-10-02 16:18:39,872 [DEBUG] [MAIL] Attachment ajouté: C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\out\pdf\01_GABY_INC_gabrielnadoncanada_at_gmail.com.pdf
+2025-10-02 16:18:39,910 [DEBUG] [MAIL] Draft sauvegardé
+2025-10-02 16:18:39,950 [INFO] [MAIL] Send OK -> gabrielnadoncanada@gmail.com
+2025-10-02 16:21:00,594 [INFO] ==== RUNTIME ====
+2025-10-02 16:21:00,594 [INFO] Python: 3.10.6 (64bit)
+2025-10-02 16:21:00,629 [INFO] OS: Windows-10-10.0.26100-SP0
+2025-10-02 16:21:00,629 [INFO] Pywin32: ?
+2025-10-02 16:21:00,630 [INFO] Working dir: C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator
+2025-10-02 16:21:00,630 [INFO] Script dir: C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator
+2025-10-02 16:21:00,630 [INFO] Docx out: C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\out\docx | Pdf out: C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\out\pdf | Log: C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\out\logs\mail.log
+2025-10-02 16:21:00,631 [INFO] [MAIL] Préparation -> to=gabrielnadoncanada@gmail.com | from=gabriel@dilamco.com | subj=Document - GABY INC.
+2025-10-02 16:21:01,070 [ERROR] [MAIL] ensure_mapi_ready failed: (-2147418111, 'Call was rejected by callee.', None, None)
+2025-10-02 16:21:01,071 [ERROR] Traceback (most recent call last):
+  File "C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\generate_and_pdf.py", line 251, in send_email_via_outlook
+    outlook, ns = ensure_mapi_ready()
+  File "C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\generate_and_pdf.py", line 214, in ensure_mapi_ready
+    ns = outlook.GetNamespace("MAPI")
+  File "C:\Users\gabri\AppData\Local\Temp\gen_py\3.10\00062FFF-0000-0000-C000-000000000046x0x9x6\_Application.py", line 90, in GetNamespace
+    ret = self._oleobj_.InvokeTypes(272, LCID, 1, (9, 0), ((8, 1),),Type
+pywintypes.com_error: (-2147418111, 'Call was rejected by callee.', None, None)
+
+2025-10-02 16:21:21,067 [INFO] ==== RUNTIME ====
+2025-10-02 16:21:21,068 [INFO] Python: 3.10.6 (64bit)
+2025-10-02 16:21:21,127 [INFO] OS: Windows-10-10.0.26100-SP0
+2025-10-02 16:21:21,127 [INFO] Pywin32: ?
+2025-10-02 16:21:21,128 [INFO] Working dir: C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator
+2025-10-02 16:21:21,128 [INFO] Script dir: C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator
+2025-10-02 16:21:21,128 [INFO] Docx out: C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\out\docx | Pdf out: C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\out\pdf | Log: C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\out\logs\mail.log
+2025-10-02 16:21:21,532 [ERROR] Echec debug_list_outlook_accounts()
+2025-10-02 16:21:21,532 [ERROR] Traceback (most recent call last):
+  File "C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\generate_and_pdf.py", line 194, in debug_list_outlook_accounts
+    session = outlook.Session
+  File "C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\.venv\lib\site-packages\win32com\client\__init__.py", line 589, in __getattr__
+    return self._ApplyTypes_(*args)
+  File "C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\.venv\lib\site-packages\win32com\client\__init__.py", line 580, in _ApplyTypes_
+    self._oleobj_.InvokeTypes(dispid, 0, wFlags, retType, argTypes, *args),
+pywintypes.com_error: (-2147418111, 'Call was rejected by callee.', None, None)
+
+2025-10-02 16:21:21,546 [INFO] [MAIL] Préparation -> to=gabrielnadoncanada@gmail.com | from=gabriel@dilamco.com | subj=Document - GABY INC.
+2025-10-02 16:21:21,591 [DEBUG] [MAIL] CreateItem OK (attempt 1)
+2025-10-02 16:21:21,670 [INFO] [MAIL] SendUsingAccount = gabriel@dilamco.com
+2025-10-02 16:21:21,674 [DEBUG] [MAIL] Signature système ajoutée
+2025-10-02 16:21:21,773 [DEBUG] [MAIL] Attachment ajouté: C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\out\pdf\01_GABY_INC_gabrielnadoncanada_at_gmail.com.pdf
+2025-10-02 16:21:21,841 [DEBUG] [MAIL] Draft sauvegardé
+2025-10-02 16:21:21,871 [INFO] [MAIL] Send OK -> gabrielnadoncanada@gmail.com
+2025-10-02 16:28:15,612 [INFO] ==== RUNTIME ====
+2025-10-02 16:28:15,613 [INFO] Python: 3.10.6 (64bit)
+2025-10-02 16:28:15,645 [INFO] OS: Windows-10-10.0.26100-SP0
+2025-10-02 16:28:15,645 [INFO] Pywin32: ?
+2025-10-02 16:28:15,645 [INFO] Working dir: C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator
+2025-10-02 16:28:15,645 [INFO] Script dir: C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator
+2025-10-02 16:28:15,646 [INFO] Docx out: C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\out\docx | Pdf out: C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\out\pdf | Log: C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\out\logs\mail.log
+2025-10-02 16:28:16,096 [ERROR] Echec debug_list_outlook_accounts()
+2025-10-02 16:28:16,097 [ERROR] Traceback (most recent call last):
+  File "C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\generate_and_pdf.py", line 202, in debug_list_outlook_accounts
+    session = outlook.Session
+  File "C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\.venv\lib\site-packages\win32com\client\__init__.py", line 589, in __getattr__
+    return self._ApplyTypes_(*args)
+  File "C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\.venv\lib\site-packages\win32com\client\__init__.py", line 580, in _ApplyTypes_
+    self._oleobj_.InvokeTypes(dispid, 0, wFlags, retType, argTypes, *args),
+pywintypes.com_error: (-2147418111, 'Call was rejected by callee.', None, None)
+
+2025-10-02 16:28:16,101 [INFO] [MAIL] Préparation -> to=gabrielnadoncanada@gmail.com | from=gabriel@dilamco.com | subj=Document - GABY INC.
+2025-10-02 16:28:16,126 [DEBUG] [MAIL] CreateItem OK (attempt 1)
+2025-10-02 16:28:16,137 [INFO] [MAIL] SendUsingAccount = gabriel@dilamco.com
+2025-10-02 16:28:16,139 [DEBUG] [MAIL] Signature ajoutée: Dilamco (gabriel@dilamco.com)
+2025-10-02 16:28:16,191 [DEBUG] [MAIL] Attachment ajouté: C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\out\pdf\01_GABY_INC_gabrielnadoncanada_at_gmail.com.pdf
+2025-10-02 16:28:16,267 [DEBUG] [MAIL] Draft sauvegardé
+2025-10-02 16:28:16,297 [INFO] [MAIL] Send OK -> gabrielnadoncanada@gmail.com
+2025-10-02 16:31:14,413 [INFO] ==== RUNTIME ====
+2025-10-02 16:31:14,413 [INFO] Python: 3.10.6 (64bit)
+2025-10-02 16:31:14,446 [INFO] OS: Windows-10-10.0.26100-SP0
+2025-10-02 16:31:14,446 [INFO] Pywin32: ?
+2025-10-02 16:31:14,446 [INFO] Working dir: C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator
+2025-10-02 16:31:14,446 [INFO] Script dir: C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator
+2025-10-02 16:31:14,446 [INFO] Docx out: C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\out\docx | Pdf out: C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\out\pdf | Log: C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\out\logs\mail.log
+2025-10-02 16:31:15,152 [ERROR] Echec debug_list_outlook_accounts()
+2025-10-02 16:31:15,152 [ERROR] Traceback (most recent call last):
+  File "C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\generate_and_pdf.py", line 209, in debug_list_outlook_accounts
+    session = outlook.Session
+  File "C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\.venv\lib\site-packages\win32com\client\__init__.py", line 589, in __getattr__
+    return self._ApplyTypes_(*args)
+  File "C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\.venv\lib\site-packages\win32com\client\__init__.py", line 580, in _ApplyTypes_
+    self._oleobj_.InvokeTypes(dispid, 0, wFlags, retType, argTypes, *args),
+pywintypes.com_error: (-2147418111, 'Call was rejected by callee.', None, None)
+
+2025-10-02 16:31:15,152 [INFO] [MAIL] Préparation -> to=gabrielnadoncanada@gmail.com | from=gabriel@dilamco.com | subj=Document - GABY INC.
+2025-10-02 16:31:15,181 [DEBUG] [MAIL] CreateItem OK (attempt 1)
+2025-10-02 16:31:15,181 [INFO] [MAIL] SendUsingAccount = gabriel@dilamco.com
+2025-10-02 16:31:15,181 [DEBUG] [MAIL] Signature ajoutée: Dilamco (gabriel@dilamco.com)
+2025-10-02 16:31:15,244 [DEBUG] [MAIL] Attachment ajouté: C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\out\pdf\01_GABY_INC_gabrielnadoncanada_at_gmail.com.pdf
+2025-10-02 16:31:15,305 [DEBUG] [MAIL] Draft sauvegardé
+2025-10-02 16:31:15,320 [INFO] [MAIL] Send OK -> gabrielnadoncanada@gmail.com
+2025-10-02 16:32:12,556 [INFO] ==== RUNTIME ====
+2025-10-02 16:32:12,556 [INFO] Python: 3.10.6 (64bit)
+2025-10-02 16:32:12,588 [INFO] OS: Windows-10-10.0.26100-SP0
+2025-10-02 16:32:12,588 [INFO] Pywin32: ?
+2025-10-02 16:32:12,604 [INFO] Working dir: C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator
+2025-10-02 16:32:12,604 [INFO] Script dir: C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator
+2025-10-02 16:32:12,604 [INFO] Docx out: C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\out\docx | Pdf out: C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\out\pdf | Log: C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\out\logs\mail.log
+2025-10-02 16:32:13,043 [ERROR] Echec debug_list_outlook_accounts()
+2025-10-02 16:32:13,044 [ERROR] Traceback (most recent call last):
+  File "C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\generate_and_pdf.py", line 209, in debug_list_outlook_accounts
+    session = outlook.Session
+  File "C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\.venv\lib\site-packages\win32com\client\__init__.py", line 589, in __getattr__
+    return self._ApplyTypes_(*args)
+  File "C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\.venv\lib\site-packages\win32com\client\__init__.py", line 580, in _ApplyTypes_
+    self._oleobj_.InvokeTypes(dispid, 0, wFlags, retType, argTypes, *args),
+pywintypes.com_error: (-2147418111, 'Call was rejected by callee.', None, None)
+
+2025-10-02 16:32:13,060 [INFO] [MAIL] Préparation -> to=gabrielnadoncanada@gmail.com | from=gabriel@dilamco.com | subj=Document - GABY INC.
+2025-10-02 16:32:13,089 [DEBUG] [MAIL] CreateItem OK (attempt 1)
+2025-10-02 16:32:13,101 [INFO] [MAIL] SendUsingAccount = gabriel@dilamco.com
+2025-10-02 16:32:13,103 [DEBUG] [MAIL] Signature ajoutée: Dilamco (gabriel@dilamco.com)
+2025-10-02 16:32:13,150 [DEBUG] [MAIL] Attachment ajouté: C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\out\pdf\01_GABY_INC_gabrielnadoncanada_at_gmail.com.pdf
+2025-10-02 16:32:13,213 [DEBUG] [MAIL] Draft sauvegardé
+2025-10-02 16:32:13,245 [INFO] [MAIL] Send OK -> gabrielnadoncanada@gmail.com
+2025-10-02 16:33:33,453 [INFO] ==== RUNTIME ====
+2025-10-02 16:33:33,453 [INFO] Python: 3.10.6 (64bit)
+2025-10-02 16:33:33,493 [INFO] OS: Windows-10-10.0.26100-SP0
+2025-10-02 16:33:33,494 [INFO] Pywin32: ?
+2025-10-02 16:33:33,495 [INFO] Working dir: C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator
+2025-10-02 16:33:33,495 [INFO] Script dir: C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator
+2025-10-02 16:33:33,495 [INFO] Docx out: C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\out\docx | Pdf out: C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\out\pdf | Log: C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\out\logs\mail.log
+2025-10-02 16:33:33,945 [ERROR] Echec debug_list_outlook_accounts()
+2025-10-02 16:33:33,945 [ERROR] Traceback (most recent call last):
+  File "C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\generate_and_pdf.py", line 209, in debug_list_outlook_accounts
+    session = outlook.Session
+  File "C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\.venv\lib\site-packages\win32com\client\__init__.py", line 589, in __getattr__
+    return self._ApplyTypes_(*args)
+  File "C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\.venv\lib\site-packages\win32com\client\__init__.py", line 580, in _ApplyTypes_
+    self._oleobj_.InvokeTypes(dispid, 0, wFlags, retType, argTypes, *args),
+pywintypes.com_error: (-2147418111, 'Call was rejected by callee.', None, None)
+
+2025-10-02 16:33:33,961 [INFO] [MAIL] Préparation -> to=gabrielnadoncanada@gmail.com | from=gabriel@dilamco.com | subj=Document - GABY INC.
+2025-10-02 16:33:33,977 [DEBUG] [MAIL] CreateItem OK (attempt 1)
+2025-10-02 16:33:33,990 [INFO] [MAIL] SendUsingAccount = gabriel@dilamco.com
+2025-10-02 16:33:33,994 [DEBUG] [MAIL] Signature ajoutée: Dilamco (gabriel@dilamco.com)
+2025-10-02 16:33:34,044 [DEBUG] [MAIL] Attachment ajouté: C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\out\pdf\01_GABY_INC_gabrielnadoncanada_at_gmail.com.pdf
+2025-10-02 16:33:34,097 [DEBUG] [MAIL] Draft sauvegardé
+2025-10-02 16:33:34,110 [INFO] [MAIL] Send OK -> gabrielnadoncanada@gmail.com
+2025-10-02 16:43:07,555 [INFO] ==== RUNTIME ====
+2025-10-02 16:43:07,555 [INFO] Python: 3.10.6 (64bit)
+2025-10-02 16:43:07,590 [INFO] OS: Windows-10-10.0.26100-SP0
+2025-10-02 16:43:07,590 [INFO] Pywin32: ?
+2025-10-02 16:43:07,590 [INFO] Working dir: C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator
+2025-10-02 16:43:07,590 [INFO] Script dir: C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator
+2025-10-02 16:43:07,590 [INFO] Docx out: C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\out\docx | Pdf out: C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\out\pdf | Log: C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\out\logs\mail.log
+2025-10-02 16:43:08,068 [ERROR] Echec debug_list_outlook_accounts()
+2025-10-02 16:43:08,069 [ERROR] Traceback (most recent call last):
+  File "C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\generate_and_pdf.py", line 210, in debug_list_outlook_accounts
+    session = outlook.Session
+  File "C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\.venv\lib\site-packages\win32com\client\__init__.py", line 589, in __getattr__
+    return self._ApplyTypes_(*args)
+  File "C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\.venv\lib\site-packages\win32com\client\__init__.py", line 580, in _ApplyTypes_
+    self._oleobj_.InvokeTypes(dispid, 0, wFlags, retType, argTypes, *args),
+pywintypes.com_error: (-2147418111, 'Call was rejected by callee.', None, None)
+
+2025-10-02 16:43:08,077 [INFO] [MAIL] Préparation -> to=gabrielnadoncanada@gmail.com | from=gabriel@dilamco.com | subj=Soumission - 25142 - École Arc-en-ciel Pavillon 1 (Laval)
+2025-10-02 16:43:08,103 [DEBUG] [MAIL] CreateItem OK (attempt 1)
+2025-10-02 16:43:08,116 [INFO] [MAIL] SendUsingAccount = gabriel@dilamco.com
+2025-10-02 16:43:08,116 [DEBUG] [MAIL] Signature ajoutée: Dilamco (gabriel@dilamco.com)
+2025-10-02 16:43:08,172 [DEBUG] [MAIL] Attachment ajouté: C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\out\pdf\01_GABY_INC_gabrielnadoncanada_at_gmail.com.pdf
+2025-10-02 16:43:08,251 [DEBUG] [MAIL] Draft sauvegardé
+2025-10-02 16:43:08,291 [INFO] [MAIL] Send OK -> gabrielnadoncanada@gmail.com
