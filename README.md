@@ -1,137 +1,99 @@
-# Word Batch Generator (DOCX -> PDF)
+# Générateur de Documents Word - Version Refactorisée
 
-Automatise la génération de **N documents Word** à partir d'un **modèle** puis la **conversion en PDF**, avec aucune fusion : un PDF par entrée.
-
-- **OS ciblé** : Windows (docx2pdf utilise Microsoft Word via COM).
-- **Alternative** : LibreOffice headless si Word n'est pas installé.
-- **Placeholder attendu dans le modèle** : `{{VENDEUR}}`
-
-## Structure du projet
+## Structure du Projet
 
 ```
 word-batch-generator/
-  data/
-    entrepreneurs.csv         # liste des entreprises avec email (colonnes 'nom', 'email')
-  out/
-    docx/                     # DOCX générés
-    pdf/                      # PDF générés
-  scripts/
-    setup_venv.ps1            # création/installation venv (PowerShell)
-    run.ps1                   # exécution (PowerShell)
-    setup_venv.bat            # variante .bat
-    run.bat                   # variante .bat
-  templates/
-    modele.docx               # modèle Word (placeholder {{VENDEUR}})
-  generate_and_pdf.py         # script principal
-  requirements.txt
-  .gitignore
-  README.md
+├── config.py                 # Configuration centralisée
+├── main.py                   # Point d'entrée principal
+├── document_generator.py     # Générateur de documents Word
+├── email_sender.py          # Gestionnaire d'envoi d'emails
+├── outlook_utils.py         # Utilitaires Outlook
+├── file_utils.py            # Utilitaires de gestion des fichiers
+├── validators.py            # Validateurs de données
+├── logger_config.py         # Configuration du logging
+├── tests/                   # Tests unitaires
+│   ├── __init__.py
+│   ├── test_validators.py
+│   └── test_document_generator.py
+├── templates/               # Modèles Word
+│   └── modele.docx
+├── data/                    # Données CSV
+│   └── entrepreneurs.csv
+└── out/                     # Fichiers de sortie
+    ├── docx/
+    ├── pdf/
+    └── logs/
 ```
 
-## Prérequis
+## Améliorations Apportées
 
-- **Python 3.10+** (idéalement)
-- **Microsoft Word** installé (pour la conversion PDF via `docx2pdf`)
-- **PowerShell** ou **CMD**
+### 1. **Séparation des Responsabilités**
 
-> Si tu n'as pas Word, regarde **Option C** ci-dessous (LibreOffice).
+- **`config.py`** : Configuration centralisée
+- **`document_generator.py`** : Logique de génération de documents
+- **`email_sender.py`** : Gestion de l'envoi d'emails
+- **`outlook_utils.py`** : Intégration avec Outlook
+- **`file_utils.py`** : Utilitaires de gestion des fichiers
+- **`validators.py`** : Validation des données
 
-## Installation rapide (Windows, PowerShell)
+### 2. **Programmation Orientée Objet**
 
-Depuis le dossier `word-batch-generator` :
+- Classes `DocumentGenerator`, `EmailSender`, `WordBatchGenerator`
+- Encapsulation des fonctionnalités
+- Réutilisabilité du code
 
-```powershell
-# 1) Crée le venv et installe les dépendances
-.\scripts\setup_venv.ps1
+### 3. **Gestion d'Erreurs Améliorée**
 
-# 2) (optionnel) Activer le venv dans cette session si pas déjà actif
-.\.venv\Scripts\Activate.ps1
+- Validation des données d'entrée
+- Gestion des erreurs spécifiques
+- Logging structuré et informatif
 
-# 3) Exécuter la génération (selon le nombre de lignes du CSV)
-.\scripts
-un.ps1 -
+### 4. **Configuration Centralisée**
+
+- Tous les paramètres dans `config.py`
+- Facilite la maintenance et les modifications
+
+### 5. **Tests Unitaires**
+
+- Tests pour les validateurs
+- Tests pour le générateur de documents
+- Couverture des fonctionnalités critiques
+
+## Utilisation
+
+### Exécution Simple
+
+```bash
+python main.py
 ```
 
-### Variante CMD (.bat)
+### Exécution avec Tests
 
-```bat
-REM 1) Setup
-scripts\setup_venv.bat
+```bash
+# Exécuter tous les tests
+python -m pytest tests/
 
-REM 2) Run (20 documents par défaut)
-scripts
-un.bat 20
+# Exécuter un test spécifique
+python -m pytest tests/test_validators.py
 ```
 
-## Personnalisation
+## Configuration
 
-### 1) Éditer la liste des entreprises
+Modifiez `config.py` pour ajuster :
 
-Modifie `data/entrepreneurs.csv` (colonne `nom`). Le script lit **jusqu'à 20** lignes par défaut (paramètre `--limit`).
+- Chemins des fichiers
+- Paramètres d'email
+- Configuration de signature
+- Paramètres de retry
+- Niveau de logging
 
-### 2) Adapter le modèle Word
+## Dépendances
 
-Ouvre `templates/modele.docx` et assure-toi que le placeholder **exact** existe : `{{VENDEUR}}`.
-- Si Word fragmente le placeholder sur plusieurs *runs* (style appliqué au milieu), le script dispose d'un **mode secours** qui remplace le texte du paragraphe (avec petite perte de style local).
+Les dépendances restent les mêmes :
 
-### 3) Changer le placeholder
+- `python-docx`
+- `docx2pdf`
+- `pywin32` (Windows uniquement)
 
-Si ton modèle utilise un autre token, modifie la constante `PLACEHOLDER` dans `generate_and_pdf.py`.
-
-### 4) Fusionner tous les PDF
-
-La fusion est désactivée (`MERGE_ENABLED = False`) : un PDF par entrée. (`out/pdf/bundle_entrepreneurs.pdf`).
-
-## Options d'exécution
-
-```powershell
-# Limiter le nombre de documents générés (ex: 10)
-.\scripts
-un.ps1 -Limit 10
-
-# Ou en direct (venv actif)
-python generate_and_pdf.py 10
-```
-
-## Option C — Sans Microsoft Word (LibreOffice headless)
-
-Si Word n'est pas disponible, tu peux convertir avec LibreOffice :
-1. Installe **LibreOffice**.
-2. Après génération des `.docx`, lance :
-   ```bash
-   soffice --headless --convert-to pdf --outdir out/pdf out/docx/*.docx
-   ```
-
-> Remarque : la fidélité visuelle peut légèrement différer selon les polices/mises en page.
-
-## Dépannage
-
-- **docx2pdf error / COM** : Assure-toi que Microsoft Word est bien installé et ouvert au moins une fois.
-- **Polices manquantes** : Installe les polices utilisées par `modele.docx` pour éviter les substitutions.
-- **Placeholder non remplacé** : Vérifie l'orthographe exacte `{{VENDEUR}}` et qu'il ne soit pas scindé par du style. Le mode secours tente de le corriger.
-- **PDF fusionné manquant** : Mets `MERGE_ENABLED = True` (par défaut).
-
-## Sécurité & traçabilité
-
-- Sorties nommées comme `01_Entreprise_Alpha.docx/.pdf` (ordre stable).
-- Pas de données sensibles écrites en clair hors de `data/`.
-- `.gitignore` exclut `out/` et `.venv/`.
-
----
-
-**Tu peux remplacer `templates/modele.docx` par ton vrai modèle et `data/entrepreneurs.csv` par ta liste, sans toucher au code.**
-
-
-## Format CSV (mis à jour)
-
-Le fichier `data/entrepreneurs.csv` doit contenir :
-```csv
-nom,email
-Entreprise Alpha,alpha@example.com
-Entreprise Beta,beta@example.com
-...
-```
-
-- La colonne **nom** est obligatoire.
-- La colonne **email** est optionnelle et sert **uniquement** à concaténer l'adresse dans le **nom du fichier PDF** (pas dans le contenu du document).
-- Exemple de sortie : `01_Entreprise_Alpha_alpha_at_example.com.pdf`
+Voir `requirements.txt` pour la liste complète.

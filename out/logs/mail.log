@@ -184,3 +184,119 @@ pywintypes.com_error: (-2147418111, 'Call was rejected by callee.', None, None)
 2025-10-02 16:43:08,172 [DEBUG] [MAIL] Attachment ajouté: C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\out\pdf\01_GABY_INC_gabrielnadoncanada_at_gmail.com.pdf
 2025-10-02 16:43:08,251 [DEBUG] [MAIL] Draft sauvegardé
 2025-10-02 16:43:08,291 [INFO] [MAIL] Send OK -> gabrielnadoncanada@gmail.com
+2025-10-02 16:54:46,281 [INFO] Validation de l'environnement...
+2025-10-02 16:54:46,286 [INFO] Chargement des données...
+2025-10-02 16:54:46,286 [INFO] Données chargées: 1 entrée(s)
+2025-10-02 16:54:46,286 [INFO] Génération des documents...
+2025-10-02 16:54:51,476 [INFO] Document généré: 01_GABY_INC.docx -> 01_GABY_INC_gabrielnadoncanada_at_gmail.com.pdf
+2025-10-02 16:54:51,477 [INFO] [OK] 1 DOCX générés -> C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\out\docx
+2025-10-02 16:54:51,479 [INFO] [OK] 1 PDF générés -> C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\out\pdf
+2025-10-02 16:54:51,480 [INFO] Envoi des emails...
+2025-10-02 16:54:51,993 [ERROR] Échec debug_list_outlook_accounts()
+2025-10-02 16:54:51,993 [ERROR] Traceback (most recent call last):
+  File "C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\outlook_utils.py", line 69, in debug_list_outlook_accounts
+    session = outlook.Session
+  File "C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\.venv\lib\site-packages\win32com\client\__init__.py", line 589, in __getattr__
+    return self._ApplyTypes_(*args)
+  File "C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\.venv\lib\site-packages\win32com\client\__init__.py", line 580, in _ApplyTypes_
+    self._oleobj_.InvokeTypes(dispid, 0, wFlags, retType, argTypes, *args),
+pywintypes.com_error: (-2147418111, 'Call was rejected by callee.', None, None)
+
+2025-10-02 16:54:51,993 [INFO] [MAIL] Préparation -> to=gabrielnadoncanada@gmail.com | from=gabriel@dilamco.com | subj=Soumission - 25142 - École Arc-en-ciel Pavillon 1 (Laval)
+2025-10-02 16:54:52,024 [DEBUG] [MAIL] CreateItem OK (attempt 1)
+2025-10-02 16:54:52,034 [INFO] [MAIL] SendUsingAccount = gabriel@dilamco.com
+2025-10-02 16:54:52,034 [DEBUG] [MAIL] Signature ajoutée: Dilamco (gabriel@dilamco.com)
+2025-10-02 16:54:52,073 [DEBUG] [MAIL] Attachment ajouté: C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\out\pdf\01_GABY_INC_gabrielnadoncanada_at_gmail.com.pdf
+2025-10-02 16:54:52,177 [DEBUG] [MAIL] Draft sauvegardé
+2025-10-02 16:54:52,203 [INFO] [MAIL] Send OK -> gabrielnadoncanada@gmail.com
+2025-10-02 16:54:52,204 [INFO] Emails envoyés: 1/1
+2025-10-02 16:54:52,205 [INFO] === RÉSUMÉ ===
+2025-10-02 16:54:52,205 [INFO] Documents générés: 1 DOCX, 1 PDF
+2025-10-02 16:54:52,205 [INFO] Emails envoyés: 1/1
+2025-10-02 16:55:43,196 [INFO] Validation de l'environnement...
+2025-10-02 16:55:43,196 [INFO] Chargement des données...
+2025-10-02 16:55:43,196 [INFO] Données chargées: 1 entrée(s)
+2025-10-02 16:55:43,196 [INFO] Génération des documents...
+2025-10-02 16:55:46,034 [INFO] Document généré: 01_GABY_INC.docx -> 01_GABY_INC_gabrielnadoncanada_at_gmail.com.pdf
+2025-10-02 16:55:46,037 [INFO] [OK] 1 DOCX générés -> C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\out\docx
+2025-10-02 16:55:46,039 [INFO] [OK] 1 PDF générés -> C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\out\pdf
+2025-10-02 16:55:46,039 [INFO] Envoi des emails...
+2025-10-02 16:55:46,475 [INFO] Comptes Outlook détectés:
+2025-10-02 16:55:46,523 [INFO]  - DisplayName=gabriel.nadon@devactif.ca | SMTP=gabriel.nadon@devactif.ca
+2025-10-02 16:55:46,525 [INFO]  - DisplayName=gabriel@dilamco.com | SMTP=gabriel@dilamco.com
+2025-10-02 16:55:46,525 [INFO] [MAIL] Préparation -> to=gabrielnadoncanada@gmail.com | from=gabriel@dilamco.com | subj=Soumission - 25142 - École Arc-en-ciel Pavillon 1 (Laval)
+2025-10-02 16:55:46,539 [DEBUG] [MAIL] CreateItem OK (attempt 1)
+2025-10-02 16:55:46,539 [INFO] [MAIL] SendUsingAccount = gabriel@dilamco.com
+2025-10-02 16:55:46,539 [DEBUG] [MAIL] Signature ajoutée: Dilamco (gabriel@dilamco.com)
+2025-10-02 16:55:46,583 [DEBUG] [MAIL] Attachment ajouté: C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\out\pdf\01_GABY_INC_gabrielnadoncanada_at_gmail.com.pdf
+2025-10-02 16:55:46,649 [DEBUG] [MAIL] Draft sauvegardé
+2025-10-02 16:55:46,649 [INFO] [MAIL] Send OK -> gabrielnadoncanada@gmail.com
+2025-10-02 16:55:46,665 [INFO] Emails envoyés: 1/1
+2025-10-02 16:55:46,665 [INFO] === RÉSUMÉ ===
+2025-10-02 16:55:46,665 [INFO] Documents générés: 1 DOCX, 1 PDF
+2025-10-02 16:55:46,665 [INFO] Emails envoyés: 1/1
+2025-10-02 17:00:55,735 [INFO] Validation de l'environnement...
+2025-10-02 17:00:55,735 [INFO] Chargement des données...
+2025-10-02 17:00:55,735 [INFO] Données chargées: 1 entrée(s)
+2025-10-02 17:00:55,740 [INFO] Génération des documents...
+2025-10-02 17:01:06,445 [INFO] Document généré: 01_GABY_INC.docx -> 01_GABY_INC_gabrielnadoncanada_at_gmail.com.pdf
+2025-10-02 17:01:06,445 [INFO] [OK] 1 DOCX générés -> C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\out\docx
+2025-10-02 17:01:06,445 [INFO] [OK] 1 PDF générés -> C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\out\pdf
+2025-10-02 17:01:06,445 [INFO] Envoi des emails...
+2025-10-02 17:01:07,042 [ERROR] Échec debug_list_outlook_accounts()
+2025-10-02 17:01:07,042 [ERROR] Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.10\lib\site-packages\win32com\client\gencache.py", line 626, in EnsureDispatch
+    tlb, index = ti.GetContainingTypeLib()
+pywintypes.com_error: (-2147418111, 'Call was rejected by callee.', None, None)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\outlook_utils.py", line 68, in debug_list_outlook_accounts
+    outlook = win32.gencache.EnsureDispatch("Outlook.Application")
+  File "C:\laragon\bin\python\python-3.10\lib\site-packages\win32com\client\gencache.py", line 636, in EnsureDispatch
+    raise TypeError(
+TypeError: This COM object can not automate the makepy process - please run makepy manually for this object
+
+2025-10-02 17:01:07,063 [INFO] [MAIL] Préparation -> to=gabrielnadoncanada@gmail.com | from=gabriel@dilamco.com | subj=Soumission - 25142 - École Arc-en-ciel Pavillon 1 (Laval)
+2025-10-02 17:01:07,084 [DEBUG] [MAIL] CreateItem OK (attempt 1)
+2025-10-02 17:01:07,084 [WARNING] [MAIL] Impossible de forcer le compte 'gabriel@dilamco.com': 'Accounts' object is not iterable
+2025-10-02 17:01:07,084 [DEBUG] [MAIL] Template d'email chargé
+2025-10-02 17:01:07,084 [DEBUG] [MAIL] Signature ajoutée: project_signature
+2025-10-02 17:01:07,141 [DEBUG] [MAIL] Attachment ajouté: C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\out\pdf\01_GABY_INC_gabrielnadoncanada_at_gmail.com.pdf
+2025-10-02 17:01:07,217 [DEBUG] [MAIL] Draft sauvegardé
+2025-10-02 17:01:07,246 [INFO] [MAIL] Send OK -> gabrielnadoncanada@gmail.com
+2025-10-02 17:01:07,248 [INFO] Emails envoyés: 1/1
+2025-10-02 17:01:07,248 [INFO] === RÉSUMÉ ===
+2025-10-02 17:01:07,248 [INFO] Documents générés: 1 DOCX, 1 PDF
+2025-10-02 17:01:07,248 [INFO] Emails envoyés: 1/1
+2025-10-02 17:03:29,070 [INFO] Validation de l'environnement...
+2025-10-02 17:03:29,072 [INFO] Chargement des données...
+2025-10-02 17:03:29,072 [INFO] Données chargées: 1 entrée(s)
+2025-10-02 17:03:29,072 [INFO] Génération des documents...
+2025-10-02 17:03:34,822 [INFO] Document généré: 01_GABY_INC.docx -> 01_GABY_INC_gabrielnadoncanada_at_gmail.com.pdf
+2025-10-02 17:03:34,822 [INFO] [OK] 1 DOCX générés -> C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\out\docx
+2025-10-02 17:03:34,822 [INFO] [OK] 1 PDF générés -> C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\out\pdf
+2025-10-02 17:03:34,822 [INFO] Envoi des emails...
+2025-10-02 17:03:35,306 [ERROR] Échec debug_list_outlook_accounts()
+2025-10-02 17:03:35,306 [ERROR] Traceback (most recent call last):
+  File "C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\outlook_utils.py", line 69, in debug_list_outlook_accounts
+    session = outlook.Session
+  File "C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\.venv\lib\site-packages\win32com\client\__init__.py", line 589, in __getattr__
+    return self._ApplyTypes_(*args)
+  File "C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\.venv\lib\site-packages\win32com\client\__init__.py", line 580, in _ApplyTypes_
+    self._oleobj_.InvokeTypes(dispid, 0, wFlags, retType, argTypes, *args),
+pywintypes.com_error: (-2147418111, 'Call was rejected by callee.', None, None)
+
+2025-10-02 17:03:35,321 [INFO] [MAIL] Préparation -> to=gabrielnadoncanada@gmail.com | from=gabriel@dilamco.com | subj=Soumission - 25142 - École Arc-en-ciel Pavillon 1 (Laval)
+2025-10-02 17:03:35,356 [DEBUG] [MAIL] CreateItem OK (attempt 1)
+2025-10-02 17:03:35,368 [INFO] [MAIL] SendUsingAccount = gabriel@dilamco.com
+2025-10-02 17:03:35,368 [DEBUG] [MAIL] Template d'email chargé
+2025-10-02 17:03:35,368 [DEBUG] [MAIL] Signature ajoutée: project_signature
+2025-10-02 17:03:35,403 [DEBUG] [MAIL] Attachment ajouté: C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\out\pdf\01_GABY_INC_gabrielnadoncanada_at_gmail.com.pdf
+2025-10-02 17:03:35,471 [DEBUG] [MAIL] Draft sauvegardé
+2025-10-02 17:03:35,506 [INFO] [MAIL] Send OK -> gabrielnadoncanada@gmail.com
+2025-10-02 17:03:35,509 [INFO] Emails envoyés: 1/1
+2025-10-02 17:03:35,510 [INFO] === RÉSUMÉ ===
+2025-10-02 17:03:35,511 [INFO] Documents générés: 1 DOCX, 1 PDF
+2025-10-02 17:03:35,511 [INFO] Emails envoyés: 1/1
