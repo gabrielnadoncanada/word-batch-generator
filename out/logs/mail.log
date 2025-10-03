@@ -300,3 +300,462 @@ pywintypes.com_error: (-2147418111, 'Call was rejected by callee.', None, None)
 2025-10-02 17:03:35,510 [INFO] === RÉSUMÉ ===
 2025-10-02 17:03:35,511 [INFO] Documents générés: 1 DOCX, 1 PDF
 2025-10-02 17:03:35,511 [INFO] Emails envoyés: 1/1
+2025-10-02 19:12:42,067 [INFO] Validation de l'environnement...
+2025-10-02 19:12:42,067 [INFO] Chargement des données...
+2025-10-02 19:12:42,067 [INFO] Données chargées: 21 entrée(s)
+2025-10-02 19:12:42,067 [INFO] Génération des documents...
+2025-10-02 19:12:45,267 [INFO] Document généré: 01_TROICÉ_CONSTRUCTION_INC.docx -> 01_TROICÉ_CONSTRUCTION_INC_urbain_at_3cconstruction.ca.pdf
+2025-10-02 19:12:50,587 [INFO] Document généré: 02_XO_Construction_Inc.docx -> 02_XO_Construction_Inc_sorin_at_xoconstruction.com.pdf
+2025-10-02 19:12:56,007 [INFO] Document généré: 03_GESTION_KARMAT.docx -> 03_GESTION_KARMAT_estimation_at_gestionkarmat.ca.pdf
+2025-10-02 19:15:18,707 [INFO] Validation de l'environnement...
+2025-10-02 19:15:18,707 [INFO] Chargement des données...
+2025-10-02 19:15:18,707 [INFO] Données chargées: 21 entrée(s)
+2025-10-02 19:15:18,707 [INFO] Génération des documents...
+2025-10-02 19:15:20,027 [INFO] Document généré: TROICÉ_CONSTRUCTION_INC.docx -> TROICÉ_CONSTRUCTION_INC_urbain_at_3cconstruction.ca.pdf
+2025-10-02 19:15:26,105 [INFO] Document généré: XO_Construction_Inc.docx -> XO_Construction_Inc_sorin_at_xoconstruction.com.pdf
+2025-10-02 19:15:28,738 [INFO] Document généré: GESTION_KARMAT.docx -> GESTION_KARMAT_estimation_at_gestionkarmat.ca.pdf
+2025-10-02 19:15:33,747 [INFO] Document généré: Anjalec_Construction_Inc.docx -> Anjalec_Construction_Inc_vicky_at_anjalecconstruction.com.pdf
+2025-10-02 19:15:38,608 [INFO] Document généré: CONSTRUCTION_CPB_INC.docx -> CONSTRUCTION_CPB_INC_lcoulombe_at_constructioncpb.com.pdf
+2025-10-02 19:15:43,508 [INFO] Document généré: RALVEC_CONSTRUCTION_INC_HISTORIQUE.docx -> RALVEC_CONSTRUCTION_INC_HISTORIQUE_a.pepin_at_ralvec.com.pdf
+2025-10-02 19:15:48,528 [INFO] Document généré: Groupe_DCR.docx -> Groupe_DCR_soumission_at_groupeDCR.com.pdf
+2025-10-02 19:15:54,400 [INFO] Document généré: CONSTRUCTION_SÉLECTION_SRJ_INC.docx -> CONSTRUCTION_SÉLECTION_SRJ_INC_rafeek_at_constructionsrj.ca.pdf
+2025-10-02 19:15:59,509 [INFO] Document généré: PROCOA_INC.docx -> PROCOA_INC_earchambault_at_procoa.ca.pdf
+2025-10-02 19:16:06,061 [INFO] Document généré: CONSTRUCTION_DI_PAOLO_INC.docx -> CONSTRUCTION_DI_PAOLO_INC_stephane_at_groupeDipaolo.com.pdf
+2025-10-02 19:16:10,785 [INFO] Document généré: CORPORATION_DE_CONSTRUCTION_GERMANO.docx -> CORPORATION_DE_CONSTRUCTION_GERMANO_info_at_germanoconstruction.com.pdf
+2025-10-02 19:16:17,014 [INFO] Document généré: Afcor_Construction_Inc.docx -> Afcor_Construction_Inc_estimation_at_afcor.ca.pdf
+2025-10-02 19:16:21,784 [INFO] Document généré: Québec_Inc_Arthier.docx -> Québec_Inc_Arthier_b.clermont_at_arthier.ca.pdf
+2025-10-02 19:16:28,156 [INFO] Document généré: Entreprises_Philippe_Denis_Inc.docx -> Entreprises_Philippe_Denis_Inc_estimation_at_entreprisesphilippedenis.com.pdf
+2025-10-02 19:16:34,044 [INFO] Document généré: JOMACO_inc.docx -> JOMACO_inc_jpinto_at_jomaco.com.pdf
+2025-10-02 19:16:39,205 [INFO] Document généré: CHAREX_INC.docx -> CHAREX_INC_soumission_at_charex.ca.pdf
+2025-10-02 19:16:43,919 [INFO] Document généré: IMMOBILIER_BELMON_INC.docx -> IMMOBILIER_BELMON_INC_cnadeau_at_belmon.ca.pdf
+2025-10-02 19:16:50,241 [INFO] Document généré: CONSTRUCTION_L_MORIN_INC.docx -> CONSTRUCTION_L_MORIN_INC_catherine.breton_at_clmorin.com.pdf
+2025-10-02 19:16:55,807 [INFO] Document généré: CONSTRUCTION_DESORMEAUX_ET_BIBEAU_INC.docx -> CONSTRUCTION_DESORMEAUX_ET_BIBEAU_INC_soumission_at_construction-db.com.pdf
+2025-10-02 19:17:01,458 [INFO] Document généré: ST-DENIS_THOMPSON_INC.docx -> ST-DENIS_THOMPSON_INC_estimation_at_stdenisthompson.com.pdf
+2025-10-02 19:17:06,605 [INFO] Document généré: GILCA_INC.docx -> GILCA_INC_cs_at_gilca.ca.pdf
+2025-10-02 19:17:06,605 [INFO] [OK] 21 DOCX générés -> C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\out\docx
+2025-10-02 19:17:06,605 [INFO] [OK] 21 PDF générés -> C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\out\pdf
+2025-10-02 19:17:06,607 [INFO] Envoi des emails...
+2025-10-02 19:51:56,949 [INFO] Validation de l'environnement...
+2025-10-02 19:51:56,950 [INFO] Chargement des données...
+2025-10-02 19:51:56,950 [INFO] Données chargées: 2 entrée(s)
+2025-10-02 19:51:56,950 [INFO] Génération des documents...
+2025-10-02 19:51:59,579 [INFO] Document généré: DILAMCO.docx -> DILAMCO_gabrielnadoncanada_at_gmail.com.pdf
+2025-10-02 19:52:03,404 [INFO] Document généré: ALLO1233.docx -> ALLO1233_gabriel_at_dilamco.com.pdf
+2025-10-02 19:52:03,405 [INFO] [OK] 2 DOCX générés -> C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\out\docx
+2025-10-02 19:52:03,405 [INFO] [OK] 2 PDF générés -> C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\out\pdf
+2025-10-02 19:52:03,405 [INFO] Envoi des emails...
+2025-10-02 19:52:26,858 [ERROR] Échec debug_list_outlook_accounts()
+2025-10-02 19:52:26,859 [ERROR] Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.10\lib\site-packages\win32com\client\gencache.py", line 627, in EnsureDispatch
+    tla = tlb.GetLibAttr()
+pywintypes.com_error: (-2147418111, 'Call was rejected by callee.', None, None)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\outlook_utils.py", line 68, in debug_list_outlook_accounts
+    outlook = win32.gencache.EnsureDispatch("Outlook.Application")
+  File "C:\laragon\bin\python\python-3.10\lib\site-packages\win32com\client\gencache.py", line 636, in EnsureDispatch
+    raise TypeError(
+TypeError: This COM object can not automate the makepy process - please run makepy manually for this object
+
+2025-10-02 19:52:26,872 [INFO] [MAIL] Préparation -> to=gabrielnadoncanada@gmail.com | from=gabriel@dilamco.com | subj=Soumission - 25142 - École Arc-en-ciel Pavillon 1 (Laval)
+2025-10-02 19:52:26,910 [DEBUG] [MAIL] CreateItem OK (attempt 1)
+2025-10-02 19:52:26,915 [WARNING] [MAIL] Impossible de forcer le compte 'gabriel@dilamco.com': 'Accounts' object is not iterable
+2025-10-02 19:52:26,917 [DEBUG] [MAIL] Template d'email chargé
+2025-10-02 19:52:26,917 [DEBUG] [MAIL] Signature ajoutée: project_signature
+2025-10-02 19:52:27,013 [DEBUG] [MAIL] Attachment ajouté: C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\out\pdf\DILAMCO_gabrielnadoncanada_at_gmail.com.pdf
+2025-10-02 19:52:27,064 [DEBUG] [MAIL] Draft sauvegardé
+2025-10-02 19:52:27,086 [INFO] [MAIL] Send OK -> gabrielnadoncanada@gmail.com
+2025-10-02 19:52:27,089 [INFO] [MAIL] Préparation -> to=gabriel@dilamco.com | from=gabriel@dilamco.com | subj=Soumission - 25142 - École Arc-en-ciel Pavillon 1 (Laval)
+2025-10-02 19:52:27,138 [DEBUG] [MAIL] CreateItem OK (attempt 1)
+2025-10-02 19:52:27,138 [WARNING] [MAIL] Impossible de forcer le compte 'gabriel@dilamco.com': 'Accounts' object is not iterable
+2025-10-02 19:52:27,141 [DEBUG] [MAIL] Template d'email chargé
+2025-10-02 19:52:27,141 [DEBUG] [MAIL] Signature ajoutée: project_signature
+2025-10-02 19:52:27,147 [DEBUG] [MAIL] Attachment ajouté: C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\out\pdf\ALLO1233_gabriel_at_dilamco.com.pdf
+2025-10-02 19:52:27,201 [DEBUG] [MAIL] Draft sauvegardé
+2025-10-02 19:52:27,213 [INFO] [MAIL] Send OK -> gabriel@dilamco.com
+2025-10-02 19:52:27,223 [INFO] Emails envoyés: 2/2
+2025-10-02 19:52:27,223 [INFO] === RÉSUMÉ ===
+2025-10-02 19:52:27,224 [INFO] Documents générés: 2 DOCX, 2 PDF
+2025-10-02 19:52:27,224 [INFO] Emails envoyés: 2/2
+2025-10-02 19:53:02,305 [INFO] Validation de l'environnement...
+2025-10-02 19:53:02,306 [INFO] Chargement des données...
+2025-10-02 19:53:02,307 [INFO] Données chargées: 2 entrée(s)
+2025-10-02 19:53:02,307 [INFO] Génération des documents...
+2025-10-02 19:53:07,287 [INFO] Document généré: DILAMCO.docx -> DILAMCO_gabrielnadoncanada_at_gmail.com.pdf
+2025-10-02 19:53:12,167 [INFO] Document généré: ALLO1233.docx -> ALLO1233_gabriel_at_dilamco.com.pdf
+2025-10-02 19:53:12,168 [INFO] [OK] 2 DOCX générés -> C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\out\docx
+2025-10-02 19:53:12,169 [INFO] [OK] 2 PDF générés -> C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\out\pdf
+2025-10-02 19:53:12,169 [INFO] Envoi des emails...
+2025-10-02 19:53:12,605 [ERROR] Échec debug_list_outlook_accounts()
+2025-10-02 19:53:12,606 [ERROR] Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.10\lib\site-packages\win32com\client\gencache.py", line 626, in EnsureDispatch
+    tlb, index = ti.GetContainingTypeLib()
+pywintypes.com_error: (-2147418111, 'Call was rejected by callee.', None, None)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\outlook_utils.py", line 68, in debug_list_outlook_accounts
+    outlook = win32.gencache.EnsureDispatch("Outlook.Application")
+  File "C:\laragon\bin\python\python-3.10\lib\site-packages\win32com\client\gencache.py", line 636, in EnsureDispatch
+    raise TypeError(
+TypeError: This COM object can not automate the makepy process - please run makepy manually for this object
+
+2025-10-02 19:53:12,620 [INFO] [MAIL] Préparation -> to=gabrielnadoncanada@gmail.com | from=gabriel@dilamco.com | subj=Soumission - 25142 - École Arc-en-ciel Pavillon 1 (Laval)
+2025-10-02 19:53:12,645 [DEBUG] [MAIL] CreateItem OK (attempt 1)
+2025-10-02 19:53:12,647 [WARNING] [MAIL] Impossible de forcer le compte 'gabriel@dilamco.com': 'Accounts' object is not iterable
+2025-10-02 19:53:12,648 [DEBUG] [MAIL] Template d'email chargé
+2025-10-02 19:53:12,649 [DEBUG] [MAIL] Signature ajoutée: project_signature
+2025-10-02 19:53:12,704 [DEBUG] [MAIL] Attachment ajouté: C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\out\pdf\DILAMCO_gabrielnadoncanada_at_gmail.com.pdf
+2025-10-02 19:53:12,782 [DEBUG] [MAIL] Draft sauvegardé
+2025-10-02 19:53:12,811 [INFO] [MAIL] Send OK -> gabrielnadoncanada@gmail.com
+2025-10-02 19:53:12,812 [INFO] [MAIL] Préparation -> to=gabriel@dilamco.com | from=gabriel@dilamco.com | subj=Soumission - 25142 - École Arc-en-ciel Pavillon 1 (Laval)
+2025-10-02 19:53:12,818 [DEBUG] [MAIL] CreateItem OK (attempt 1)
+2025-10-02 19:53:12,820 [WARNING] [MAIL] Impossible de forcer le compte 'gabriel@dilamco.com': 'Accounts' object is not iterable
+2025-10-02 19:53:12,820 [DEBUG] [MAIL] Template d'email chargé
+2025-10-02 19:53:12,821 [DEBUG] [MAIL] Signature ajoutée: project_signature
+2025-10-02 19:53:12,827 [DEBUG] [MAIL] Attachment ajouté: C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\out\pdf\ALLO1233_gabriel_at_dilamco.com.pdf
+2025-10-02 19:53:12,889 [DEBUG] [MAIL] Draft sauvegardé
+2025-10-02 19:53:12,902 [INFO] [MAIL] Send OK -> gabriel@dilamco.com
+2025-10-02 19:53:12,947 [INFO] Emails envoyés: 2/2
+2025-10-02 19:53:12,947 [INFO] === RÉSUMÉ ===
+2025-10-02 19:53:12,948 [INFO] Documents générés: 2 DOCX, 2 PDF
+2025-10-02 19:53:12,948 [INFO] Emails envoyés: 2/2
+2025-10-02 19:54:50,719 [INFO] Validation de l'environnement...
+2025-10-02 19:54:50,721 [INFO] Chargement des données...
+2025-10-02 19:54:50,722 [INFO] Données chargées: 2 entrée(s)
+2025-10-02 19:54:50,723 [INFO] Génération des documents...
+2025-10-02 19:54:51,880 [INFO] Document généré: DILAMCO.docx -> DILAMCO_gabrielnadoncanada_at_gmail.com.pdf
+2025-10-02 19:54:56,887 [INFO] Document généré: ALLO1233.docx -> ALLO1233_gabriel_at_dilamco.com.pdf
+2025-10-02 19:54:56,888 [INFO] [OK] 2 DOCX générés -> C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\out\docx
+2025-10-02 19:54:56,890 [INFO] [OK] 2 PDF générés -> C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\out\pdf
+2025-10-02 19:54:56,891 [INFO] Envoi des emails...
+2025-10-02 19:54:58,804 [INFO] Comptes Outlook détectés:
+2025-10-02 19:54:58,806 [ERROR] Échec debug_list_outlook_accounts()
+2025-10-02 19:54:58,807 [ERROR] Traceback (most recent call last):
+  File "C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\outlook_utils.py", line 71, in debug_list_outlook_accounts
+    for acct in session.Accounts:
+TypeError: 'Accounts' object is not iterable
+
+2025-10-02 19:54:58,808 [INFO] [MAIL] Préparation -> to=gabrielnadoncanada@gmail.com | from=gabriel@dilamco.com | subj=Soumission - 25142 - École Arc-en-ciel Pavillon 1 (Laval)
+2025-10-02 19:54:58,817 [DEBUG] [MAIL] CreateItem OK (attempt 1)
+2025-10-02 19:54:58,817 [WARNING] [MAIL] Impossible de forcer le compte 'gabriel@dilamco.com': 'Accounts' object is not iterable
+2025-10-02 19:54:58,818 [DEBUG] [MAIL] Template d'email chargé
+2025-10-02 19:54:58,818 [DEBUG] [MAIL] Signature ajoutée: project_signature
+2025-10-02 19:54:58,853 [DEBUG] [MAIL] Attachment ajouté: C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\out\pdf\DILAMCO_gabrielnadoncanada_at_gmail.com.pdf
+2025-10-02 19:54:58,899 [DEBUG] [MAIL] Draft sauvegardé
+2025-10-02 19:54:58,917 [INFO] [MAIL] Send OK -> gabrielnadoncanada@gmail.com
+2025-10-02 19:54:58,918 [INFO] [MAIL] Préparation -> to=gabriel@dilamco.com | from=gabriel@dilamco.com | subj=Soumission - 25142 - École Arc-en-ciel Pavillon 1 (Laval)
+2025-10-02 19:54:58,923 [DEBUG] [MAIL] CreateItem OK (attempt 1)
+2025-10-02 19:54:58,924 [WARNING] [MAIL] Impossible de forcer le compte 'gabriel@dilamco.com': 'Accounts' object is not iterable
+2025-10-02 19:54:58,925 [DEBUG] [MAIL] Template d'email chargé
+2025-10-02 19:54:58,925 [DEBUG] [MAIL] Signature ajoutée: project_signature
+2025-10-02 19:54:58,970 [DEBUG] [MAIL] Attachment ajouté: C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\out\pdf\ALLO1233_gabriel_at_dilamco.com.pdf
+2025-10-02 19:54:59,041 [DEBUG] [MAIL] Draft sauvegardé
+2025-10-02 19:54:59,063 [INFO] [MAIL] Send OK -> gabriel@dilamco.com
+2025-10-02 19:54:59,074 [INFO] Emails envoyés: 2/2
+2025-10-02 19:54:59,074 [INFO] === RÉSUMÉ ===
+2025-10-02 19:54:59,075 [INFO] Documents générés: 2 DOCX, 2 PDF
+2025-10-02 19:54:59,075 [INFO] Emails envoyés: 2/2
+2025-10-02 20:06:59,776 [INFO] Validation de l'environnement...
+2025-10-02 20:06:59,776 [INFO] Chargement des données...
+2025-10-02 20:06:59,776 [INFO] Données chargées: 2 entrée(s)
+2025-10-02 20:06:59,776 [INFO] Génération des documents...
+2025-10-02 20:07:04,711 [INFO] Document généré: DILAMCO.docx -> DILAMCO_gabrielnadoncanada_at_gmail.com.pdf
+2025-10-02 20:07:09,619 [INFO] Document généré: ALLO1233.docx -> ALLO1233_gabrielnadoncanada_at_hotmail.com.pdf
+2025-10-02 20:07:09,619 [INFO] [OK] 2 DOCX générés -> C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\out\docx
+2025-10-02 20:07:09,619 [INFO] [OK] 2 PDF générés -> C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\out\pdf
+2025-10-02 20:07:09,619 [INFO] Envoi des emails...
+2025-10-02 20:07:11,514 [INFO] Comptes Outlook détectés:
+2025-10-02 20:07:11,514 [ERROR] Échec debug_list_outlook_accounts()
+2025-10-02 20:07:11,514 [ERROR] Traceback (most recent call last):
+  File "C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\outlook_utils.py", line 71, in debug_list_outlook_accounts
+    for acct in session.Accounts:
+TypeError: 'Accounts' object is not iterable
+
+2025-10-02 20:07:11,529 [INFO] [MAIL] Préparation -> to=gabrielnadoncanada@gmail.com | from=gabriel@dilamco.com | subj=Soumission - 25142 - École Arc-en-ciel Pavillon 1 (Laval)
+2025-10-02 20:07:11,545 [DEBUG] [MAIL] CreateItem OK (attempt 1)
+2025-10-02 20:07:11,545 [WARNING] [MAIL] Impossible de forcer le compte 'gabriel@dilamco.com': 'Accounts' object is not iterable
+2025-10-02 20:07:11,545 [DEBUG] [MAIL] Template d'email chargé
+2025-10-02 20:07:11,545 [DEBUG] [MAIL] Signature ajoutée: project_signature
+2025-10-02 20:07:11,641 [DEBUG] [MAIL] Attachment ajouté: C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\out\pdf\DILAMCO_gabrielnadoncanada_at_gmail.com.pdf
+2025-10-02 20:07:11,721 [DEBUG] [MAIL] Draft sauvegardé
+2025-10-02 20:07:11,737 [INFO] [MAIL] Send OK -> gabrielnadoncanada@gmail.com
+2025-10-02 20:07:11,737 [INFO] [MAIL] Préparation -> to=gabrielnadoncanada@hotmail.com | from=gabriel@dilamco.com | subj=Soumission - 25142 - École Arc-en-ciel Pavillon 1 (Laval)
+2025-10-02 20:07:11,758 [DEBUG] [MAIL] CreateItem OK (attempt 1)
+2025-10-02 20:07:11,759 [WARNING] [MAIL] Impossible de forcer le compte 'gabriel@dilamco.com': 'Accounts' object is not iterable
+2025-10-02 20:07:11,760 [DEBUG] [MAIL] Template d'email chargé
+2025-10-02 20:07:11,760 [DEBUG] [MAIL] Signature ajoutée: project_signature
+2025-10-02 20:07:11,852 [DEBUG] [MAIL] Attachment ajouté: C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\out\pdf\ALLO1233_gabrielnadoncanada_at_hotmail.com.pdf
+2025-10-02 20:07:11,862 [DEBUG] [MAIL] Draft sauvegardé
+2025-10-02 20:07:11,862 [INFO] [MAIL] Send OK -> gabrielnadoncanada@hotmail.com
+2025-10-02 20:07:11,878 [INFO] Emails envoyés: 2/2
+2025-10-02 20:07:11,878 [INFO] === RÉSUMÉ ===
+2025-10-02 20:07:11,878 [INFO] Documents générés: 2 DOCX, 2 PDF
+2025-10-02 20:07:11,878 [INFO] Emails envoyés: 2/2
+2025-10-02 20:10:05,410 [INFO] Validation de l'environnement...
+2025-10-02 20:10:05,410 [INFO] Chargement des données...
+2025-10-02 20:10:05,410 [INFO] Données chargées: 3 entrée(s)
+2025-10-02 20:10:05,410 [INFO] Génération des documents...
+2025-10-02 20:10:10,269 [INFO] Document généré: DILAMCO.docx -> DILAMCO_gabrielnadoncanada_at_gmail.com.pdf
+2025-10-02 20:10:15,199 [INFO] Document généré: marc-andre.docx -> marc-andre_marc-andre_at_dilamco.com.pdf
+2025-10-02 20:10:20,089 [INFO] Document généré: ALLO1233.docx -> ALLO1233_gabrielnadoncanada_at_hotmail.com.pdf
+2025-10-02 20:10:20,094 [INFO] [OK] 3 DOCX générés -> C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\out\docx
+2025-10-02 20:10:20,094 [INFO] [OK] 3 PDF générés -> C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\out\pdf
+2025-10-02 20:10:20,094 [INFO] Envoi des emails...
+2025-10-02 20:10:20,469 [ERROR] Échec debug_list_outlook_accounts()
+2025-10-02 20:10:20,470 [ERROR] Traceback (most recent call last):
+  File "C:\laragon\bin\python\python-3.10\lib\site-packages\win32com\client\gencache.py", line 624, in EnsureDispatch
+    ti = disp._oleobj_.GetTypeInfo()
+pywintypes.com_error: (-2147418111, 'Call was rejected by callee.', None, None)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\outlook_utils.py", line 68, in debug_list_outlook_accounts
+    outlook = win32.gencache.EnsureDispatch("Outlook.Application")
+  File "C:\laragon\bin\python\python-3.10\lib\site-packages\win32com\client\gencache.py", line 636, in EnsureDispatch
+    raise TypeError(
+TypeError: This COM object can not automate the makepy process - please run makepy manually for this object
+
+2025-10-02 20:10:20,479 [INFO] [MAIL] Préparation -> to=gabrielnadoncanada@gmail.com | from=gabriel@dilamco.com | subj=Soumission - 25142 - École Arc-en-ciel Pavillon 1 (Laval)
+2025-10-02 20:10:20,508 [DEBUG] [MAIL] CreateItem OK (attempt 1)
+2025-10-02 20:10:20,508 [WARNING] [MAIL] Impossible de forcer le compte 'gabriel@dilamco.com': 'Accounts' object is not iterable
+2025-10-02 20:10:20,508 [DEBUG] [MAIL] Template d'email chargé
+2025-10-02 20:10:20,508 [DEBUG] [MAIL] Signature ajoutée: project_signature
+2025-10-02 20:10:20,560 [DEBUG] [MAIL] Attachment ajouté: C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\out\pdf\DILAMCO_gabrielnadoncanada_at_gmail.com.pdf
+2025-10-02 20:10:20,616 [DEBUG] [MAIL] Draft sauvegardé
+2025-10-02 20:10:20,649 [INFO] [MAIL] Send OK -> gabrielnadoncanada@gmail.com
+2025-10-02 20:10:20,652 [INFO] [MAIL] Préparation -> to=marc-andre@dilamco.com | from=gabriel@dilamco.com | subj=Soumission - 25142 - École Arc-en-ciel Pavillon 1 (Laval)
+2025-10-02 20:10:20,654 [DEBUG] [MAIL] CreateItem OK (attempt 1)
+2025-10-02 20:10:20,654 [WARNING] [MAIL] Impossible de forcer le compte 'gabriel@dilamco.com': 'Accounts' object is not iterable
+2025-10-02 20:10:20,654 [DEBUG] [MAIL] Template d'email chargé
+2025-10-02 20:10:20,659 [DEBUG] [MAIL] Signature ajoutée: project_signature
+2025-10-02 20:10:20,665 [DEBUG] [MAIL] Attachment ajouté: C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\out\pdf\marc-andre_marc-andre_at_dilamco.com.pdf
+2025-10-02 20:10:20,713 [DEBUG] [MAIL] Draft sauvegardé
+2025-10-02 20:10:20,792 [INFO] [MAIL] Send OK -> marc-andre@dilamco.com
+2025-10-02 20:10:20,801 [INFO] [MAIL] Préparation -> to=gabrielnadoncanada@hotmail.com | from=gabriel@dilamco.com | subj=Soumission - 25142 - École Arc-en-ciel Pavillon 1 (Laval)
+2025-10-02 20:10:20,809 [DEBUG] [MAIL] CreateItem OK (attempt 1)
+2025-10-02 20:10:20,809 [WARNING] [MAIL] Impossible de forcer le compte 'gabriel@dilamco.com': 'Accounts' object is not iterable
+2025-10-02 20:10:20,809 [DEBUG] [MAIL] Template d'email chargé
+2025-10-02 20:10:20,809 [DEBUG] [MAIL] Signature ajoutée: project_signature
+2025-10-02 20:10:20,818 [DEBUG] [MAIL] Attachment ajouté: C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\out\pdf\ALLO1233_gabrielnadoncanada_at_hotmail.com.pdf
+2025-10-02 20:10:20,878 [DEBUG] [MAIL] Draft sauvegardé
+2025-10-02 20:10:20,889 [INFO] [MAIL] Send OK -> gabrielnadoncanada@hotmail.com
+2025-10-02 20:10:20,898 [INFO] Emails envoyés: 3/3
+2025-10-02 20:10:20,898 [INFO] === RÉSUMÉ ===
+2025-10-02 20:10:20,898 [INFO] Documents générés: 3 DOCX, 3 PDF
+2025-10-02 20:10:20,898 [INFO] Emails envoyés: 3/3
+2025-10-02 20:16:07,298 [INFO] Validation de l'environnement...
+2025-10-02 20:16:07,298 [INFO] Chargement des données...
+2025-10-02 20:16:07,299 [INFO] Données chargées: 21 entrée(s)
+2025-10-02 20:16:07,299 [INFO] Génération des documents...
+2025-10-02 20:16:08,469 [INFO] Document généré: TROICÉ_CONSTRUCTION_INC.docx -> TROICÉ_CONSTRUCTION_INC_urbain_at_3cconstruction.ca.pdf
+2025-10-02 20:16:11,220 [INFO] Document généré: XO_Construction_Inc.docx -> XO_Construction_Inc_sorin_at_xoconstruction.com.pdf
+2025-10-02 20:16:16,119 [INFO] Document généré: GESTION_KARMAT.docx -> GESTION_KARMAT_estimation_at_gestionkarmat.ca.pdf
+2025-10-02 20:16:21,082 [INFO] Document généré: Anjalec_Construction_Inc.docx -> Anjalec_Construction_Inc_vicky_at_anjalecconstruction.com.pdf
+2025-10-02 20:16:26,082 [INFO] Document généré: CONSTRUCTION_CPB_INC.docx -> CONSTRUCTION_CPB_INC_lcoulombe_at_constructioncpb.com.pdf
+2025-10-02 20:16:30,970 [INFO] Document généré: RALVEC_CONSTRUCTION_INC_HISTORIQUE.docx -> RALVEC_CONSTRUCTION_INC_HISTORIQUE_a.pepin_at_ralvec.com.pdf
+2025-10-02 20:16:32,169 [INFO] Document généré: Groupe_DCR.docx -> Groupe_DCR_soumission_at_groupeDCR.com.pdf
+2025-10-02 20:16:37,020 [INFO] Document généré: CONSTRUCTION_SÉLECTION_SRJ_INC.docx -> CONSTRUCTION_SÉLECTION_SRJ_INC_rafeek_at_constructionsrj.ca.pdf
+2025-10-02 20:16:41,921 [INFO] Document généré: PROCOA_INC.docx -> PROCOA_INC_earchambault_at_procoa.ca.pdf
+2025-10-02 20:16:46,809 [INFO] Document généré: CONSTRUCTION_DI_PAOLO_INC.docx -> CONSTRUCTION_DI_PAOLO_INC_stephane_at_groupeDipaolo.com.pdf
+2025-10-02 20:16:51,936 [INFO] Document généré: CORPORATION_DE_CONSTRUCTION_GERMANO.docx -> CORPORATION_DE_CONSTRUCTION_GERMANO_info_at_germanoconstruction.com.pdf
+2025-10-02 20:16:56,876 [INFO] Document généré: Afcor_Construction_Inc.docx -> Afcor_Construction_Inc_estimation_at_afcor.ca.pdf
+2025-10-02 20:17:01,749 [INFO] Document généré: Québec_Inc_Arthier.docx -> Québec_Inc_Arthier_b.clermont_at_arthier.ca.pdf
+2025-10-02 20:17:05,789 [INFO] Document généré: Entreprises_Philippe_Denis_Inc.docx -> Entreprises_Philippe_Denis_Inc_estimation_at_entreprisesphilippedenis.com.pdf
+2025-10-02 20:17:06,920 [INFO] Document généré: JOMACO_inc.docx -> JOMACO_inc_jpinto_at_jomaco.com.pdf
+2025-10-02 20:17:10,749 [INFO] Document généré: CHAREX_INC.docx -> CHAREX_INC_soumission_at_charex.ca.pdf
+2025-10-02 20:17:13,322 [INFO] Document généré: IMMOBILIER_BELMON_INC.docx -> IMMOBILIER_BELMON_INC_cnadeau_at_belmon.ca.pdf
+2025-10-02 20:17:18,259 [INFO] Document généré: CONSTRUCTION_L_MORIN_INC.docx -> CONSTRUCTION_L_MORIN_INC_catherine.breton_at_clmorin.com.pdf
+2025-10-02 20:17:22,403 [INFO] Document généré: CONSTRUCTION_DESORMEAUX_ET_BIBEAU_INC.docx -> CONSTRUCTION_DESORMEAUX_ET_BIBEAU_INC_soumission_at_construction-db.com.pdf
+2025-10-02 20:17:25,027 [INFO] Document généré: ST-DENIS_THOMPSON_INC.docx -> ST-DENIS_THOMPSON_INC_estimation_at_stdenisthompson.com.pdf
+2025-10-02 20:17:27,833 [INFO] Document généré: GILCA_INC.docx -> GILCA_INC_cs_at_gilca.ca.pdf
+2025-10-02 20:17:27,833 [INFO] [OK] 21 DOCX générés -> C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\out\docx
+2025-10-02 20:17:27,833 [INFO] [OK] 21 PDF générés -> C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\out\pdf
+2025-10-02 20:17:27,833 [INFO] Envoi des emails...
+2025-10-02 20:17:29,729 [INFO] Comptes Outlook détectés:
+2025-10-02 20:17:29,732 [ERROR] Échec debug_list_outlook_accounts()
+2025-10-02 20:17:29,732 [ERROR] Traceback (most recent call last):
+  File "C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\outlook_utils.py", line 71, in debug_list_outlook_accounts
+    for acct in session.Accounts:
+TypeError: 'Accounts' object is not iterable
+
+2025-10-02 20:17:29,732 [INFO] [MAIL] Préparation -> to=urbain@3cconstruction.ca | from=gabriel@dilamco.com | subj=Soumission - 25142 - École Arc-en-ciel Pavillon 1 (Laval)
+2025-10-02 20:17:29,784 [DEBUG] [MAIL] CreateItem OK (attempt 1)
+2025-10-02 20:17:29,788 [WARNING] [MAIL] Impossible de forcer le compte 'gabriel@dilamco.com': 'Accounts' object is not iterable
+2025-10-02 20:17:29,788 [DEBUG] [MAIL] Template d'email chargé
+2025-10-02 20:17:29,788 [DEBUG] [MAIL] Signature ajoutée: project_signature
+2025-10-02 20:17:29,829 [DEBUG] [MAIL] Attachment ajouté: C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\out\pdf\TROICÉ_CONSTRUCTION_INC_urbain_at_3cconstruction.ca.pdf
+2025-10-02 20:17:29,898 [DEBUG] [MAIL] Draft sauvegardé
+2025-10-02 20:17:29,920 [INFO] [MAIL] Send OK -> urbain@3cconstruction.ca
+2025-10-02 20:17:29,922 [INFO] [MAIL] Préparation -> to=sorin@xoconstruction.com | from=gabriel@dilamco.com | subj=Soumission - 25142 - École Arc-en-ciel Pavillon 1 (Laval)
+2025-10-02 20:17:29,928 [DEBUG] [MAIL] CreateItem OK (attempt 1)
+2025-10-02 20:17:29,928 [WARNING] [MAIL] Impossible de forcer le compte 'gabriel@dilamco.com': 'Accounts' object is not iterable
+2025-10-02 20:17:29,928 [DEBUG] [MAIL] Template d'email chargé
+2025-10-02 20:17:29,928 [DEBUG] [MAIL] Signature ajoutée: project_signature
+2025-10-02 20:17:29,978 [DEBUG] [MAIL] Attachment ajouté: C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\out\pdf\XO_Construction_Inc_sorin_at_xoconstruction.com.pdf
+2025-10-02 20:17:30,023 [DEBUG] [MAIL] Draft sauvegardé
+2025-10-02 20:17:30,030 [INFO] [MAIL] Send OK -> sorin@xoconstruction.com
+2025-10-02 20:17:30,033 [INFO] [MAIL] Préparation -> to=estimation@gestionkarmat.ca | from=gabriel@dilamco.com | subj=Soumission - 25142 - École Arc-en-ciel Pavillon 1 (Laval)
+2025-10-02 20:17:30,038 [DEBUG] [MAIL] CreateItem OK (attempt 1)
+2025-10-02 20:17:30,038 [WARNING] [MAIL] Impossible de forcer le compte 'gabriel@dilamco.com': 'Accounts' object is not iterable
+2025-10-02 20:17:30,038 [DEBUG] [MAIL] Template d'email chargé
+2025-10-02 20:17:30,038 [DEBUG] [MAIL] Signature ajoutée: project_signature
+2025-10-02 20:17:30,046 [DEBUG] [MAIL] Attachment ajouté: C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\out\pdf\GESTION_KARMAT_estimation_at_gestionkarmat.ca.pdf
+2025-10-02 20:17:30,120 [DEBUG] [MAIL] Draft sauvegardé
+2025-10-02 20:17:30,143 [INFO] [MAIL] Send OK -> estimation@gestionkarmat.ca
+2025-10-02 20:17:30,159 [INFO] [MAIL] Préparation -> to=vicky@anjalecconstruction.com | from=gabriel@dilamco.com | subj=Soumission - 25142 - École Arc-en-ciel Pavillon 1 (Laval)
+2025-10-02 20:17:30,168 [DEBUG] [MAIL] CreateItem OK (attempt 1)
+2025-10-02 20:17:30,169 [WARNING] [MAIL] Impossible de forcer le compte 'gabriel@dilamco.com': 'Accounts' object is not iterable
+2025-10-02 20:17:30,169 [DEBUG] [MAIL] Template d'email chargé
+2025-10-02 20:17:30,169 [DEBUG] [MAIL] Signature ajoutée: project_signature
+2025-10-02 20:17:30,179 [DEBUG] [MAIL] Attachment ajouté: C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\out\pdf\Anjalec_Construction_Inc_vicky_at_anjalecconstruction.com.pdf
+2025-10-02 20:17:30,248 [DEBUG] [MAIL] Draft sauvegardé
+2025-10-02 20:17:30,262 [INFO] [MAIL] Send OK -> vicky@anjalecconstruction.com
+2025-10-02 20:17:30,268 [INFO] [MAIL] Préparation -> to=lcoulombe@constructioncpb.com | from=gabriel@dilamco.com | subj=Soumission - 25142 - École Arc-en-ciel Pavillon 1 (Laval)
+2025-10-02 20:17:30,277 [DEBUG] [MAIL] CreateItem OK (attempt 1)
+2025-10-02 20:17:30,279 [WARNING] [MAIL] Impossible de forcer le compte 'gabriel@dilamco.com': 'Accounts' object is not iterable
+2025-10-02 20:17:30,279 [DEBUG] [MAIL] Template d'email chargé
+2025-10-02 20:17:30,279 [DEBUG] [MAIL] Signature ajoutée: project_signature
+2025-10-02 20:17:30,288 [DEBUG] [MAIL] Attachment ajouté: C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\out\pdf\CONSTRUCTION_CPB_INC_lcoulombe_at_constructioncpb.com.pdf
+2025-10-02 20:17:30,359 [DEBUG] [MAIL] Draft sauvegardé
+2025-10-02 20:17:30,374 [INFO] [MAIL] Send OK -> lcoulombe@constructioncpb.com
+2025-10-02 20:17:30,379 [INFO] [MAIL] Préparation -> to=a.pepin@ralvec.com | from=gabriel@dilamco.com | subj=Soumission - 25142 - École Arc-en-ciel Pavillon 1 (Laval)
+2025-10-02 20:17:30,389 [DEBUG] [MAIL] CreateItem OK (attempt 1)
+2025-10-02 20:17:30,389 [WARNING] [MAIL] Impossible de forcer le compte 'gabriel@dilamco.com': 'Accounts' object is not iterable
+2025-10-02 20:17:30,389 [DEBUG] [MAIL] Template d'email chargé
+2025-10-02 20:17:30,389 [DEBUG] [MAIL] Signature ajoutée: project_signature
+2025-10-02 20:17:30,389 [DEBUG] [MAIL] Attachment ajouté: C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\out\pdf\RALVEC_CONSTRUCTION_INC_HISTORIQUE_a.pepin_at_ralvec.com.pdf
+2025-10-02 20:17:30,420 [DEBUG] [MAIL] Draft sauvegardé
+2025-10-02 20:17:30,428 [INFO] [MAIL] Send OK -> a.pepin@ralvec.com
+2025-10-02 20:17:30,433 [INFO] [MAIL] Préparation -> to=soumission@groupeDCR.com | from=gabriel@dilamco.com | subj=Soumission - 25142 - École Arc-en-ciel Pavillon 1 (Laval)
+2025-10-02 20:17:30,433 [DEBUG] [MAIL] CreateItem OK (attempt 1)
+2025-10-02 20:17:30,433 [WARNING] [MAIL] Impossible de forcer le compte 'gabriel@dilamco.com': 'Accounts' object is not iterable
+2025-10-02 20:17:30,433 [DEBUG] [MAIL] Template d'email chargé
+2025-10-02 20:17:30,433 [DEBUG] [MAIL] Signature ajoutée: project_signature
+2025-10-02 20:17:30,439 [DEBUG] [MAIL] Attachment ajouté: C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\out\pdf\Groupe_DCR_soumission_at_groupeDCR.com.pdf
+2025-10-02 20:17:30,495 [DEBUG] [MAIL] Draft sauvegardé
+2025-10-02 20:17:30,499 [INFO] [MAIL] Send OK -> soumission@groupeDCR.com
+2025-10-02 20:17:30,514 [INFO] [MAIL] Préparation -> to=rafeek@constructionsrj.ca | from=gabriel@dilamco.com | subj=Soumission - 25142 - École Arc-en-ciel Pavillon 1 (Laval)
+2025-10-02 20:17:30,519 [DEBUG] [MAIL] CreateItem OK (attempt 1)
+2025-10-02 20:17:30,519 [WARNING] [MAIL] Impossible de forcer le compte 'gabriel@dilamco.com': 'Accounts' object is not iterable
+2025-10-02 20:17:30,519 [DEBUG] [MAIL] Template d'email chargé
+2025-10-02 20:17:30,519 [DEBUG] [MAIL] Signature ajoutée: project_signature
+2025-10-02 20:17:30,529 [DEBUG] [MAIL] Attachment ajouté: C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\out\pdf\CONSTRUCTION_SÉLECTION_SRJ_INC_rafeek_at_constructionsrj.ca.pdf
+2025-10-02 20:17:30,599 [DEBUG] [MAIL] Draft sauvegardé
+2025-10-02 20:17:30,606 [INFO] [MAIL] Send OK -> rafeek@constructionsrj.ca
+2025-10-02 20:17:30,608 [INFO] [MAIL] Préparation -> to=earchambault@procoa.ca | from=gabriel@dilamco.com | subj=Soumission - 25142 - École Arc-en-ciel Pavillon 1 (Laval)
+2025-10-02 20:17:30,608 [DEBUG] [MAIL] CreateItem OK (attempt 1)
+2025-10-02 20:17:30,608 [WARNING] [MAIL] Impossible de forcer le compte 'gabriel@dilamco.com': 'Accounts' object is not iterable
+2025-10-02 20:17:30,608 [DEBUG] [MAIL] Template d'email chargé
+2025-10-02 20:17:30,608 [DEBUG] [MAIL] Signature ajoutée: project_signature
+2025-10-02 20:17:30,619 [DEBUG] [MAIL] Attachment ajouté: C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\out\pdf\PROCOA_INC_earchambault_at_procoa.ca.pdf
+2025-10-02 20:17:30,694 [DEBUG] [MAIL] Draft sauvegardé
+2025-10-02 20:17:30,719 [INFO] [MAIL] Send OK -> earchambault@procoa.ca
+2025-10-02 20:17:30,729 [INFO] [MAIL] Préparation -> to=stephane@groupeDipaolo.com | from=gabriel@dilamco.com | subj=Soumission - 25142 - École Arc-en-ciel Pavillon 1 (Laval)
+2025-10-02 20:17:30,744 [DEBUG] [MAIL] CreateItem OK (attempt 1)
+2025-10-02 20:17:30,746 [WARNING] [MAIL] Impossible de forcer le compte 'gabriel@dilamco.com': 'Accounts' object is not iterable
+2025-10-02 20:17:30,747 [DEBUG] [MAIL] Template d'email chargé
+2025-10-02 20:17:30,747 [DEBUG] [MAIL] Signature ajoutée: project_signature
+2025-10-02 20:17:30,753 [DEBUG] [MAIL] Attachment ajouté: C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\out\pdf\CONSTRUCTION_DI_PAOLO_INC_stephane_at_groupeDipaolo.com.pdf
+2025-10-02 20:17:30,809 [DEBUG] [MAIL] Draft sauvegardé
+2025-10-02 20:17:30,849 [INFO] [MAIL] Send OK -> stephane@groupeDipaolo.com
+2025-10-02 20:17:30,849 [INFO] [MAIL] Préparation -> to=info@germanoconstruction.com | from=gabriel@dilamco.com | subj=Soumission - 25142 - École Arc-en-ciel Pavillon 1 (Laval)
+2025-10-02 20:17:30,859 [DEBUG] [MAIL] CreateItem OK (attempt 1)
+2025-10-02 20:17:30,859 [WARNING] [MAIL] Impossible de forcer le compte 'gabriel@dilamco.com': 'Accounts' object is not iterable
+2025-10-02 20:17:30,869 [DEBUG] [MAIL] Template d'email chargé
+2025-10-02 20:17:30,869 [DEBUG] [MAIL] Signature ajoutée: project_signature
+2025-10-02 20:17:30,879 [DEBUG] [MAIL] Attachment ajouté: C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\out\pdf\CORPORATION_DE_CONSTRUCTION_GERMANO_info_at_germanoconstruction.com.pdf
+2025-10-02 20:17:30,949 [DEBUG] [MAIL] Draft sauvegardé
+2025-10-02 20:17:30,971 [INFO] [MAIL] Send OK -> info@germanoconstruction.com
+2025-10-02 20:17:30,989 [INFO] [MAIL] Préparation -> to=estimation@afcor.ca | from=gabriel@dilamco.com | subj=Soumission - 25142 - École Arc-en-ciel Pavillon 1 (Laval)
+2025-10-02 20:17:30,990 [DEBUG] [MAIL] CreateItem OK (attempt 1)
+2025-10-02 20:17:30,990 [WARNING] [MAIL] Impossible de forcer le compte 'gabriel@dilamco.com': 'Accounts' object is not iterable
+2025-10-02 20:17:30,990 [DEBUG] [MAIL] Template d'email chargé
+2025-10-02 20:17:30,999 [DEBUG] [MAIL] Signature ajoutée: project_signature
+2025-10-02 20:17:31,003 [DEBUG] [MAIL] Attachment ajouté: C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\out\pdf\Afcor_Construction_Inc_estimation_at_afcor.ca.pdf
+2025-10-02 20:17:31,083 [DEBUG] [MAIL] Draft sauvegardé
+2025-10-02 20:17:31,101 [INFO] [MAIL] Send OK -> estimation@afcor.ca
+2025-10-02 20:17:31,105 [INFO] [MAIL] Préparation -> to=b.clermont@arthier.ca | from=gabriel@dilamco.com | subj=Soumission - 25142 - École Arc-en-ciel Pavillon 1 (Laval)
+2025-10-02 20:17:31,114 [DEBUG] [MAIL] CreateItem OK (attempt 1)
+2025-10-02 20:17:31,114 [WARNING] [MAIL] Impossible de forcer le compte 'gabriel@dilamco.com': 'Accounts' object is not iterable
+2025-10-02 20:17:31,118 [DEBUG] [MAIL] Template d'email chargé
+2025-10-02 20:17:31,118 [DEBUG] [MAIL] Signature ajoutée: project_signature
+2025-10-02 20:17:31,129 [DEBUG] [MAIL] Attachment ajouté: C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\out\pdf\Québec_Inc_Arthier_b.clermont_at_arthier.ca.pdf
+2025-10-02 20:17:31,438 [DEBUG] [MAIL] Draft sauvegardé
+2025-10-02 20:17:31,454 [INFO] [MAIL] Send OK -> b.clermont@arthier.ca
+2025-10-02 20:17:31,475 [INFO] [MAIL] Préparation -> to=estimation@entreprisesphilippedenis.com | from=gabriel@dilamco.com | subj=Soumission - 25142 - École Arc-en-ciel Pavillon 1 (Laval)
+2025-10-02 20:17:31,485 [DEBUG] [MAIL] CreateItem OK (attempt 1)
+2025-10-02 20:17:31,489 [WARNING] [MAIL] Impossible de forcer le compte 'gabriel@dilamco.com': 'Accounts' object is not iterable
+2025-10-02 20:17:31,489 [DEBUG] [MAIL] Template d'email chargé
+2025-10-02 20:17:31,489 [DEBUG] [MAIL] Signature ajoutée: project_signature
+2025-10-02 20:17:31,506 [DEBUG] [MAIL] Attachment ajouté: C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\out\pdf\Entreprises_Philippe_Denis_Inc_estimation_at_entreprisesphilippedenis.com.pdf
+2025-10-02 20:17:31,580 [DEBUG] [MAIL] Draft sauvegardé
+2025-10-02 20:17:31,599 [INFO] [MAIL] Send OK -> estimation@entreprisesphilippedenis.com
+2025-10-02 20:17:31,612 [INFO] [MAIL] Préparation -> to=jpinto@jomaco.com | from=gabriel@dilamco.com | subj=Soumission - 25142 - École Arc-en-ciel Pavillon 1 (Laval)
+2025-10-02 20:17:31,620 [DEBUG] [MAIL] CreateItem OK (attempt 1)
+2025-10-02 20:17:31,620 [WARNING] [MAIL] Impossible de forcer le compte 'gabriel@dilamco.com': 'Accounts' object is not iterable
+2025-10-02 20:17:31,620 [DEBUG] [MAIL] Template d'email chargé
+2025-10-02 20:17:31,620 [DEBUG] [MAIL] Signature ajoutée: project_signature
+2025-10-02 20:17:31,639 [DEBUG] [MAIL] Attachment ajouté: C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\out\pdf\JOMACO_inc_jpinto_at_jomaco.com.pdf
+2025-10-02 20:17:31,709 [DEBUG] [MAIL] Draft sauvegardé
+2025-10-02 20:17:31,759 [INFO] [MAIL] Send OK -> jpinto@jomaco.com
+2025-10-02 20:17:31,759 [INFO] [MAIL] Préparation -> to=soumission@charex.ca | from=gabriel@dilamco.com | subj=Soumission - 25142 - École Arc-en-ciel Pavillon 1 (Laval)
+2025-10-02 20:17:31,779 [DEBUG] [MAIL] CreateItem OK (attempt 1)
+2025-10-02 20:17:31,779 [WARNING] [MAIL] Impossible de forcer le compte 'gabriel@dilamco.com': 'Accounts' object is not iterable
+2025-10-02 20:17:31,779 [DEBUG] [MAIL] Template d'email chargé
+2025-10-02 20:17:31,779 [DEBUG] [MAIL] Signature ajoutée: project_signature
+2025-10-02 20:17:31,791 [DEBUG] [MAIL] Attachment ajouté: C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\out\pdf\CHAREX_INC_soumission_at_charex.ca.pdf
+2025-10-02 20:17:31,861 [DEBUG] [MAIL] Draft sauvegardé
+2025-10-02 20:17:31,883 [INFO] [MAIL] Send OK -> soumission@charex.ca
+2025-10-02 20:17:31,883 [INFO] [MAIL] Préparation -> to=cnadeau@belmon.ca | from=gabriel@dilamco.com | subj=Soumission - 25142 - École Arc-en-ciel Pavillon 1 (Laval)
+2025-10-02 20:17:31,904 [DEBUG] [MAIL] CreateItem OK (attempt 1)
+2025-10-02 20:17:31,906 [WARNING] [MAIL] Impossible de forcer le compte 'gabriel@dilamco.com': 'Accounts' object is not iterable
+2025-10-02 20:17:31,907 [DEBUG] [MAIL] Template d'email chargé
+2025-10-02 20:17:31,907 [DEBUG] [MAIL] Signature ajoutée: project_signature
+2025-10-02 20:17:31,918 [DEBUG] [MAIL] Attachment ajouté: C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\out\pdf\IMMOBILIER_BELMON_INC_cnadeau_at_belmon.ca.pdf
+2025-10-02 20:17:31,972 [DEBUG] [MAIL] Draft sauvegardé
+2025-10-02 20:17:31,980 [INFO] [MAIL] Send OK -> cnadeau@belmon.ca
+2025-10-02 20:17:31,980 [INFO] [MAIL] Préparation -> to=catherine.breton@clmorin.com | from=gabriel@dilamco.com | subj=Soumission - 25142 - École Arc-en-ciel Pavillon 1 (Laval)
+2025-10-02 20:17:32,000 [DEBUG] [MAIL] CreateItem OK (attempt 1)
+2025-10-02 20:17:32,000 [WARNING] [MAIL] Impossible de forcer le compte 'gabriel@dilamco.com': 'Accounts' object is not iterable
+2025-10-02 20:17:32,009 [DEBUG] [MAIL] Template d'email chargé
+2025-10-02 20:17:32,009 [DEBUG] [MAIL] Signature ajoutée: project_signature
+2025-10-02 20:17:32,020 [DEBUG] [MAIL] Attachment ajouté: C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\out\pdf\CONSTRUCTION_L_MORIN_INC_catherine.breton_at_clmorin.com.pdf
+2025-10-02 20:17:32,219 [DEBUG] [MAIL] Draft sauvegardé
+2025-10-02 20:17:32,251 [INFO] [MAIL] Send OK -> catherine.breton@clmorin.com
+2025-10-02 20:17:32,262 [INFO] [MAIL] Préparation -> to=soumission@construction-db.com | from=gabriel@dilamco.com | subj=Soumission - 25142 - École Arc-en-ciel Pavillon 1 (Laval)
+2025-10-02 20:17:32,274 [DEBUG] [MAIL] CreateItem OK (attempt 1)
+2025-10-02 20:17:32,274 [WARNING] [MAIL] Impossible de forcer le compte 'gabriel@dilamco.com': 'Accounts' object is not iterable
+2025-10-02 20:17:32,279 [DEBUG] [MAIL] Template d'email chargé
+2025-10-02 20:17:32,280 [DEBUG] [MAIL] Signature ajoutée: project_signature
+2025-10-02 20:17:32,289 [DEBUG] [MAIL] Attachment ajouté: C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\out\pdf\CONSTRUCTION_DESORMEAUX_ET_BIBEAU_INC_soumission_at_construction-db.com.pdf
+2025-10-02 20:17:32,349 [DEBUG] [MAIL] Draft sauvegardé
+2025-10-02 20:17:32,360 [INFO] [MAIL] Send OK -> soumission@construction-db.com
+2025-10-02 20:17:32,379 [INFO] [MAIL] Préparation -> to=estimation@stdenisthompson.com | from=gabriel@dilamco.com | subj=Soumission - 25142 - École Arc-en-ciel Pavillon 1 (Laval)
+2025-10-02 20:17:32,391 [DEBUG] [MAIL] CreateItem OK (attempt 1)
+2025-10-02 20:17:32,399 [WARNING] [MAIL] Impossible de forcer le compte 'gabriel@dilamco.com': 'Accounts' object is not iterable
+2025-10-02 20:17:32,399 [DEBUG] [MAIL] Template d'email chargé
+2025-10-02 20:17:32,399 [DEBUG] [MAIL] Signature ajoutée: project_signature
+2025-10-02 20:17:32,409 [DEBUG] [MAIL] Attachment ajouté: C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\out\pdf\ST-DENIS_THOMPSON_INC_estimation_at_stdenisthompson.com.pdf
+2025-10-02 20:17:32,489 [DEBUG] [MAIL] Draft sauvegardé
+2025-10-02 20:17:32,499 [INFO] [MAIL] Send OK -> estimation@stdenisthompson.com
+2025-10-02 20:17:32,519 [INFO] [MAIL] Préparation -> to=cs@gilca.ca | from=gabriel@dilamco.com | subj=Soumission - 25142 - École Arc-en-ciel Pavillon 1 (Laval)
+2025-10-02 20:17:32,529 [DEBUG] [MAIL] CreateItem OK (attempt 1)
+2025-10-02 20:17:32,529 [WARNING] [MAIL] Impossible de forcer le compte 'gabriel@dilamco.com': 'Accounts' object is not iterable
+2025-10-02 20:17:32,529 [DEBUG] [MAIL] Template d'email chargé
+2025-10-02 20:17:32,534 [DEBUG] [MAIL] Signature ajoutée: project_signature
+2025-10-02 20:17:32,538 [DEBUG] [MAIL] Attachment ajouté: C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\08_Business\quotes\appel-offres\word-batch-generator\out\pdf\GILCA_INC_cs_at_gilca.ca.pdf
+2025-10-02 20:17:32,729 [DEBUG] [MAIL] Draft sauvegardé
+2025-10-02 20:17:32,750 [INFO] [MAIL] Send OK -> cs@gilca.ca
+2025-10-02 20:17:32,750 [INFO] Emails envoyés: 21/21
+2025-10-02 20:17:32,750 [INFO] === RÉSUMÉ ===
+2025-10-02 20:17:32,750 [INFO] Documents générés: 21 DOCX, 21 PDF
+2025-10-02 20:17:32,750 [INFO] Emails envoyés: 21/21
+2025-10-03 19:29:36,741 [INFO] Validation de l'environnement...
+2025-10-03 19:29:36,741 [INFO] Chargement des données...
+2025-10-03 19:29:36,742 [INFO] Données chargées: 21 entrée(s)
+2025-10-03 19:29:36,744 [INFO] Génération des documents...

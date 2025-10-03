@@ -73,7 +73,7 @@ class DocumentGenerator:
         self.replace_in_tables(doc, PLACEHOLDER, name)
         
         # Sauvegarder
-        out_path = OUT_DOCX_DIR / f"{index:02d}_{safe_filename(name)}.docx"
+        out_path = OUT_DOCX_DIR / f"{safe_filename(name)}.docx"
         doc.save(str(out_path))
         return out_path
     
@@ -84,25 +84,50 @@ class DocumentGenerator:
         convert(str(docx_path), str(pdf_path))
         return pdf_path
     
-    def generate_documents_batch(self, rows: List[Dict[str, Any]]) -> Tuple[List[Path], List[Path]]:
-        """Génère tous les documents pour une liste de données."""
+    def generate_documents_batch(self, rows: List[Dict[str, Any]], retry_count: int = 3) -> Tuple[List[Path], List[Path]]:
+        """Génère tous les documents pour une liste de données avec gestion d'erreurs robuste."""
         docx_files = []
         pdf_files = []
-        
+        errors = []
+
         for i, row in enumerate(rows):
-            try:
-                # Générer le document Word
-                docx_path = self.generate_document(row['nom'], i + 1)
-                docx_files.append(docx_path)
-                
-                # Convertir en PDF
-                pdf_path = self.convert_to_pdf(docx_path, row.get('email', ''))
-                pdf_files.append(pdf_path)
-                
-                logging.info(f"Document généré: {docx_path.name} -> {pdf_path.name}")
-                
-            except Exception as e:
-                logging.error(f"Erreur lors de la génération du document pour {row.get('nom', 'inconnu')}: {e}")
-                raise
-        
+            name = row.get('nom', 'inconnu')
+            attempts = 0
+            success = False
+
+            while attempts < retry_count and not success:
+                try:
+                    # Générer le document Word
+                    docx_path = self.generate_document(name, i + 1)
+                    docx_files.append(docx_path)
+
+                    # Convertir en PDF
+                    pdf_path = self.convert_to_pdf(docx_path, row.get('email', ''))
+                    pdf_files.append(pdf_path)
+
+                    logging.info(f"Document généré: {docx_path.name} -> {pdf_path.name}")
+                    success = True
+
+                except Exception as e:
+                    attempts += 1
+                    error_msg = f"Erreur lors de la génération du document pour {name} (tentative {attempts}/{retry_count}): {e}"
+
+                    if attempts < retry_count:
+                        logging.warning(error_msg)
+                    else:
+                        logging.error(error_msg)
+                        errors.append({
+                            'nom': name,
+                            'erreur': str(e),
+                            'index': i
+                        })
+
+        if errors:
+            error_summary = "\n".join([f"- {err['nom']}: {err['erreur']}" for err in errors])
+            logging.error(f"Échecs de génération ({len(errors)}/{len(rows)}):\n{error_summary}")
+
+            # Ne pas lever d'exception si au moins un document a été généré
+            if not docx_files:
+                raise Exception(f"Tous les documents ont échoué. Première erreur: {errors[0]['erreur']}")
+
         return docx_files, pdf_files
