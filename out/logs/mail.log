@@ -83,3 +83,20 @@
 2025-10-04 20:07:29,724 [INFO] === RÉSUMÉ ===
 2025-10-04 20:07:29,724 [INFO] Documents générés: 1 DOCX, 1 PDF
 2025-10-04 20:07:29,724 [INFO] Emails envoyés: 1/1
+2025-10-04 20:10:56,732 [INFO] Système SMTP activé
+2025-10-04 20:10:56,732 [INFO] Validation de l'environnement...
+2025-10-04 20:10:56,732 [INFO] Chargement des données...
+2025-10-04 20:10:56,732 [INFO] Données chargées: 1 entrée(s)
+2025-10-04 20:10:56,732 [INFO] Génération des documents...
+2025-10-04 20:11:01,945 [INFO] Document généré: gabrielnadoncanada.docx -> gabrielnadoncanada_gabrielnadoncanada_at_gmail.com.pdf
+2025-10-04 20:11:01,945 [INFO] [OK] 1 DOCX générés -> C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\03_Development\word-batch-generator\out\docx
+2025-10-04 20:11:01,945 [INFO] [OK] 1 PDF générés -> C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\03_Development\word-batch-generator\out\pdf
+2025-10-04 20:11:01,945 [INFO] Envoi des emails...
+2025-10-04 20:11:01,946 [DEBUG] [SMTP] Template d'email chargé
+2025-10-04 20:11:01,947 [DEBUG] [SMTP] Signature ajoutée
+2025-10-04 20:11:01,983 [DEBUG] [SMTP] Fichier attaché: C:\Users\gabri\OneDrive\Documents\Clients\Dilamco\03_Development\word-batch-generator\out\pdf\gabrielnadoncanada_gabrielnadoncanada_at_gmail.com.pdf
+2025-10-04 20:11:04,973 [INFO] [SMTP] Email envoyé avec succès à gabrielnadoncanada@gmail.com
+2025-10-04 20:11:04,975 [INFO] Emails envoyés: 1/1
+2025-10-04 20:11:04,975 [INFO] === RÉSUMÉ ===
+2025-10-04 20:11:04,977 [INFO] Documents générés: 1 DOCX, 1 PDF
+2025-10-04 20:11:04,977 [INFO] Emails envoyés: 1/1

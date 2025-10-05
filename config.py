@@ -24,18 +24,18 @@ PLACEHOLDER = "{{VENDEUR}}"
 
 # Configuration email
 SEND_EMAIL = True
-FROM_ACCOUNT: Optional[str] = os.getenv("FROM_ACCOUNT", "gabriel@dilamco.com")
+FROM_ACCOUNT: Optional[str] = os.getenv("FROM_ACCOUNT", "")
 CC = os.getenv("CC", "")
 BCC = os.getenv("BCC", "")
 SUBJECT_TEMPLATE = "Soumission - 25142 - École Arc-en-ciel Pavillon 1 (Laval)"
 
 # Configuration SMTP (depuis variables d'environnement)
-SMTP_SERVER = os.getenv("SMTP_SERVER", "secure.emailsrvr.com")
-SMTP_PORT = int(os.getenv("SMTP_PORT", "465"))
-SMTP_USERNAME = os.getenv("SMTP_USERNAME", "gabriel@dilamco.com")
+SMTP_SERVER = os.getenv("SMTP_SERVER", "")
+SMTP_PORT = int(os.getenv("SMTP_PORT", "587"))
+SMTP_USERNAME = os.getenv("SMTP_USERNAME", "")
 SMTP_PASSWORD = os.getenv("SMTP_PASSWORD", "")
-SMTP_USE_TLS = os.getenv("SMTP_USE_TLS", "false").lower() == "true"
-SMTP_USE_SSL = os.getenv("SMTP_USE_SSL", "true").lower() == "true"
+SMTP_USE_TLS = os.getenv("SMTP_USE_TLS", "true").lower() == "true"
+SMTP_USE_SSL = os.getenv("SMTP_USE_SSL", "false").lower() == "true"
 
 # Configuration templates d'emails
 USE_EMAIL_TEMPLATE = True
