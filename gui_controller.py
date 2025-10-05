@@ -62,9 +62,6 @@ class GUIController:
 
         # Valider les paramètres email si activé
         if state.send_email:
-            if not state.from_account.strip():
-                self.gui.show_error("Erreur de validation", "Le compte email est requis.")
-                return False
             if not state.subject.strip():
                 self.gui.show_error("Erreur de validation", "Le sujet de l'email est requis.")
                 return False
@@ -73,12 +70,6 @@ class GUIController:
 
     def _run_generation(self):
         """Exécute le processus de génération (dans un thread séparé)."""
-        # Initialiser COM pour ce thread (requis pour docx2pdf/Word automation)
-        try:
-            import pythoncom
-            pythoncom.CoInitialize()
-        except ImportError:
-            pass  # pythoncom non disponible sur non-Windows
 
         try:
             self.gui.set_processing_state(True)
@@ -112,13 +103,6 @@ class GUIController:
         finally:
             self.gui.set_processing_state(False)
             self.gui.update_progress(0, 0, "Terminé")
-
-            # Désinitialiser COM
-            try:
-                import pythoncom
-                pythoncom.CoUninitialize()
-            except ImportError:
-                pass
 
     def _create_output_directories(self):
         """Crée les répertoires de sortie."""
@@ -206,39 +190,9 @@ class GUIController:
 
         try:
             email_sender = EmailSender(enabled=True)
-            sent_count = 0
-            total = len(rows)
-
-            for idx, row in enumerate(rows):
-                if self._stop_requested:
-                    self.gui.add_log("⏹️ Envoi d'emails arrêté par l'utilisateur", "WARNING")
-                    break
-
-                to_email = row.get("email", "").strip()
-                name = row.get("nom", "inconnu")
-
-                if not to_email:
-                    self.gui.add_log(f"⚠️ Pas d'email pour: {name}", "WARNING")
-                    continue
-
-                # Mettre à jour la progression
-                self.gui.update_progress(idx, total, f"Envoi email: {to_email}")
-
-                try:
-                    pdf_path = pdf_files[idx] if idx < len(pdf_files) else None
-                    if pdf_path:
-                        email_sender._send_single_email(row, pdf_path)
-                        sent_count += 1
-                        self.gui.add_log(f"✅ Email envoyé à: {to_email}", "INFO")
-                    else:
-                        self.gui.add_log(f"⚠️ Pas de PDF pour: {name}", "WARNING")
-
-                except Exception as e:
-                    self.gui.add_log(f"❌ Échec envoi à {to_email}: {e}", "ERROR")
-
-            self.gui.update_progress(total, total, "Envoi terminé")
+            self.gui.add_log("Envoi des emails...", "INFO")
+            sent_count = email_sender.send_emails_batch(rows, pdf_files)
             self.gui.add_log(f"✅ {sent_count}/{len(rows)} emails envoyés", "INFO")
-
             return sent_count
 
         except Exception as e:

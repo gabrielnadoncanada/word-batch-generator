@@ -10,7 +10,7 @@ from datetime import datetime
 
 from config import (
     TEMPLATE, CSV_FILE, OUT_DOCX_DIR, OUT_PDF_DIR,
-    PLACEHOLDER, SEND_EMAIL, FROM_ACCOUNT, SUBJECT_TEMPLATE,
+    PLACEHOLDER, SEND_EMAIL, SUBJECT_TEMPLATE,
     USE_EMAIL_TEMPLATE, USE_SYSTEM_SIGNATURE, USE_PROJECT_SIGNATURE
 )
 
@@ -25,7 +25,6 @@ class ApplicationState:
         self.output_pdf_dir: Path = OUT_PDF_DIR
         self.placeholder: str = PLACEHOLDER
         self.send_email: bool = SEND_EMAIL
-        self.from_account: str = FROM_ACCOUNT or ""
         self.subject: str = SUBJECT_TEMPLATE
         self.is_processing: bool = False
         self.total_rows: int = 0
@@ -155,10 +154,7 @@ class DocumentGeneratorGUI(ctk.CTk):
         )
         email_checkbox.grid(row=8, column=0, columnspan=2, sticky="w", padx=20, pady=5)
 
-        self._create_text_input(config_frame, "Compte Email:", self.app_state.from_account, 9,
-                               lambda v: setattr(self.app_state, 'from_account', v))
-
-        self._create_text_input(config_frame, "Sujet:", self.app_state.subject, 10,
+        self._create_text_input(config_frame, "Sujet:", self.app_state.subject, 9,
                                lambda v: setattr(self.app_state, 'subject', v))
 
     def _create_progress_panel(self, parent):

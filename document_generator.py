@@ -81,7 +81,24 @@ class DocumentGenerator:
         """Convertit un document Word en PDF."""
         email_suffix = ("_" + safe_email_for_filename(email)) if email else ""
         pdf_path = OUT_PDF_DIR / (docx_path.stem + f"{email_suffix}.pdf")
-        convert(str(docx_path), str(pdf_path))
+        
+        # Initialiser COM pour docx2pdf
+        try:
+            import pythoncom
+            pythoncom.CoInitialize()
+        except ImportError:
+            pass  # pythoncom non disponible sur non-Windows
+        
+        try:
+            convert(str(docx_path), str(pdf_path))
+        finally:
+            # Nettoyer COM
+            try:
+                import pythoncom
+                pythoncom.CoUninitialize()
+            except ImportError:
+                pass
+        
         return pdf_path
     
     def generate_documents_batch(self, rows: List[Dict[str, Any]], retry_count: int = 3) -> Tuple[List[Path], List[Path]]:
